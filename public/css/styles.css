@@ -1,0 +1,859 @@
+/* font-family: 'Luckiest Guy', cursive;
+font-family: 'Aclonica', sans-serif;
+font-family: 'Nosifer', cursive;
+font-family: 'Gorditas', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: 'Aclonica', sans-serif;
+  width: 100vw;
+}
+
+.site-container {
+  width: 100%;
+}
+
+/*-------------------- top/main section of index -------------*/
+
+.front {
+  height: 100vh;
+  background-color: rgb(43, 235, 225);
+  background-image: url(../images/contemporary-desk-graphic-design-1036841.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  clip-path: polygon(0 0, 100% 0, 100% 85vh, 35% 100%, 0 90vh);
+}
+.content {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-gap: 2px;
+  background-color: rgb(43, 235, 225);
+  width: 80%;
+  height: 50%;
+  max-height: 325px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* margin: auto;
+  margin-top: 100px; */
+  border: 10px solid rgba(0, 0, 255, 0.432);
+}
+.front .content div img {
+  width: 110%;
+  height: auto;
+}
+.vinh,
+.anna {
+  grid-row: 2;
+  position: absolute;
+  bottom: -5px;
+}
+
+.vinh {
+  grid-column: 1 / 2;
+}
+.anna {
+  grid-column: 3 / 4;
+}
+/* .content::before {
+  content: url(../images/vinhAvatar200px.png);
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 85px;
+  left: -15px;
+}
+
+.content::after {
+  content: url(../images/annaAvatar200px.png);
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 85px;
+  right: 170px;
+} */
+
+.nameLogo {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  position: relative;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 3rem;
+  text-shadow: 1px 1px 3px black;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 10px;
+}
+
+.slogan {
+  grid-column: 2 / 3;
+  grid-row: 2;
+  position: relative;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 1rem;
+  text-shadow: 1px 1px 3px black;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.one {
+  color: blueviolet;
+}
+
+.two {
+  color: hotpink;
+}
+
+.enterBtn {
+  grid-column: 2 / 3;
+  grid-row: 2;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 3px;
+  background-color: yellow;
+  text-decoration: none;
+  font-family: 'Gorditas', cursive;
+  font-size: 1.1rem;
+  border: 3px solid rgb(39, 39, 39);
+  border-radius: 7px;
+  box-shadow: 1px 1px 3px black;
+}
+
+@media screen and (min-width: 450px) {
+  .nameLogo {
+    font-size: 4rem;
+  }
+  /* .slogan {
+    font-size: 1.8rem;
+  } */
+}
+@media screen and (min-width: 772px) {
+  /* .nameLogo {
+    font-size: 4rem;
+  } */
+  .slogan {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 886px) {
+  .nameLogo {
+    font-size: 5rem;
+  }
+  .slogan {
+    font-size: 1.8rem;
+  }
+  .content {
+    height: 65%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .nameLogo {
+    font-size: 5rem;
+  }
+  .slogan {
+    font-size: 2.4rem;
+  }
+  .content {
+    height: 70%;
+  }
+}
+@media screen and (min-width: 1172px) {
+  .nameLogo {
+    font-size: 6rem;
+  }
+  .slogan {
+    font-size: 2.7rem;
+  }
+  .content {
+    grid-template-columns: 3fr 4fr 3fr;
+  }
+}
+
+section h1 {
+  font-size: 3rem;
+}
+/*-------------------- top/main section of index end ---------*/
+
+/*-------------------- learn section of index -------------------*/
+section.learn {
+  padding: 80px 40px;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.learn p {
+  margin-bottom: 40px;
+  padding-top: 10px;
+}
+
+.learnContent p {
+  margin-bottom: 10px;
+}
+
+.learn i {
+  font-size: 3em;
+}
+
+.learnContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .learnContent {
+    grid-template-columns: 1fr;
+  }
+}
+
+.learnItem {
+  background-color: rgb(241, 241, 241);
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+/*-------------------- learn section of index end -------------------*/
+
+/*-------------------- practice section of index -------------------*/
+section.practice {
+  padding: 80px 40px;
+  background-image: linear-gradient(
+      rgba(173, 216, 230, 0.705),
+      rgba(255, 192, 203, 0.808)
+    ),
+    url('../images/children-cute-drawing-159823.jpg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  clip-path: polygon(0 10%, 60% 0, 100% 15%, 100% 90%, 30% 100%, 0 95%);
+}
+
+.practiceContainer {
+  width: 80%;
+  margin: 60px 0;
+  margin-left: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 80px;
+  text-align: center;
+}
+
+.practiceContainer .left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* .practice.practiceContent {
+} */
+
+.practice p {
+  padding-top: 10px;
+}
+.practice i {
+  font-size: 3em;
+}
+
+.practiceItem {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .practiceContainer {
+    grid-template-columns: 1fr;
+  }
+}
+/*-------------------- practice section of index end ------------*/
+
+/*-------------------- enjoy section of index ----------------*/
+section.enjoy {
+  padding: 80px 40px;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.enjoy p {
+  margin-bottom: 40px;
+  padding-top: 10px;
+}
+
+.enjoyContent p {
+  margin-bottom: 10px;
+}
+
+.enjoy i {
+  font-size: 3em;
+}
+
+.enjoyContent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 1048px) {
+  .enjoyContent {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .enjoyContent {
+    grid-template-columns: 1fr;
+  }
+}
+
+.enjoyItem {
+  background-color: rgb(241, 241, 241);
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+
+/*-------------------- enjoy section of index end -----------*/
+
+/*-------------------- more section of index ----------------*/
+section.more {
+  width: 100%;
+  height: 80vh;
+  background-color: #333;
+  color: #fff;
+}
+/*-------------------- more section of index end -----------*/
+
+/*-------------------- sections pages styles ---------------*/
+
+.sectionTitle {
+  text-align: center;
+  font-size: 4.2rem;
+  position: relative;
+  text-shadow: 2px 2px 3px rgb(41, 41, 41);
+  letter-spacing: 5px;
+  top: 30px;
+}
+
+.learnSectionContainer {
+  background-color: #fff;
+  /* height: 120vh; */
+
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(224, 255, 255, 0.4)
+    ),
+    url('../images/abc-alphabet-blackboard-265076.jpg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  clip-path: polygon(0 0, 40% 8vh, 100% 0, 100% 100%, 60% 98.5%, 0 100%);
+  padding-bottom: 40px;
+}
+.practiceSectionContainer {
+  background-color: #fff;
+  /* height: 120vh; */
+
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(224, 255, 255, 0.3)
+    ),
+    url('../images/chairs-child-cute-159782.jpg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  clip-path: polygon(0 0, 40% 8vh, 100% 0, 100% 100%, 60% 95%, 0 100%);
+  padding-bottom: 40px;
+}
+
+.enjoySectionContainer {
+  /* display: none; */
+  background-color: #fff;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(224, 255, 255, 0.6)
+    ),
+    url('../images/boy-chair-children-1001914.jpg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  clip-path: polygon(0 0, 40% 8vh, 100% 0, 100% 100%, 60% 97%, 0 100%);
+  padding-bottom: 40px;
+}
+
+.learnTitleBg {
+  background-image: url('../images/forest.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  color: #fff;
+}
+
+.practiceTitleBg {
+  background-image: url('../images/sand.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  color: #fff;
+}
+
+.enjoyTitleBg {
+  background-image: url('../images/waterbeads.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  color: #fff;
+}
+
+.sectionContent {
+  width: 80%;
+  margin: 10px 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(40px, 1fr));
+  grid-gap: 15px;
+}
+
+.sectionContent button {
+  background-color: #ff6d6d;
+  border: 2px solid #ff6d6d;
+  box-shadow: 1px 1px 3px #ff6d6d;
+  border-radius: 7px;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 1rem;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.sectionContent button a {
+  color: #000;
+}
+.sectionContent button span {
+  color: #333;
+  font-size: 0.8rem;
+}
+
+.subHeading-darkbk {
+  color: rgb(255, 255, 255);
+  position: relative;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px rgb(36, 36, 36);
+}
+.subHeading-lightbk {
+  color: rgb(49, 49, 49);
+  position: relative;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px rgb(95, 95, 95);
+}
+
+.listContainer,
+.infoTable {
+  width: 90%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 251;
+}
+
+.listContainer {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.infoTable {
+  display: none;
+  background-color: rgb(20, 20, 20);
+  /* padding: 1rem; */
+}
+
+.lessonInfo {
+  padding: 1rem;
+}
+
+.lessonGroup {
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: #000;
+  padding: 10px;
+  margin: 15px 5px;
+}
+
+.lessonGroup div p {
+  text-align: right;
+}
+
+.color1 {
+  color: red;
+}
+
+.color2 {
+  color: blue;
+}
+
+.color3 {
+  color: hotpink;
+}
+
+.color4 {
+  color: rgb(162, 109, 211);
+}
+.infoTable h2 {
+  color: yellow;
+  text-align: center;
+}
+
+.infoTable h3,
+h4 {
+  color: orange;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.infoTable li {
+  list-style: circle;
+  border-top-left-radius: 20px;
+}
+
+/* .infoTable table {
+  width: 100%;
+  column-width: 25%;
+  border: 2px solid #fff;
+} */
+
+.closeBox {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px rgb(44, 44, 44);
+  color: white;
+  cursor: pointer;
+}
+
+.banner {
+  background-image: url('../pictures/fruits.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 120px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-size: 5rem;
+  text-shadow: 2px 2px 2px rgb(36, 36, 36);
+  padding: 25px 0px;
+  margin-bottom: 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 60% 100%, 0 85%);
+}
+
+.bannerLong {
+  font-size: 3.5rem;
+}
+
+.vocabList,
+.lessons {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  text-align: center;
+}
+
+.wordImg {
+  width: 80%;
+  height: auto;
+}
+
+.wordEng,
+.wordKr {
+  position: relative;
+  color: #000;
+  font-size: 2rem;
+  top: 30%;
+}
+
+@media screen and (max-width: 720px) {
+  .bannerLong {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .bannerLong {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .sectionTitle {
+    font-size: 3rem;
+  }
+
+  .wordEng,
+  .wordKr {
+    font-size: 1.2rem;
+  }
+
+  .bannerLong {
+    font-size: 2rem;
+  }
+}
+
+/* #flashcards {
+  width: 200px;
+  height: 80px;
+  font-size: 1.5rem;
+  background-color: rgba(252, 49, 49, 0.774);
+  border-radius: 10px;
+  text-align: center;
+  padding: 2rem 0;
+}
+#flashcards a {
+  text-decoration: none;
+  color: black;
+} */
+/* 
+.quizSection {
+  position: absolute;
+  top: 200px;
+  color: rgba(0, 0, 0, 0.9);
+} */
+/*-------------------- sections pages styles end -------------------*/
+
+/*-------------------- navigation -------------------*/
+
+.welcomeLine {
+  position: absolute;
+  width: 100%;
+  top: -60px;
+  right: -20px;
+  text-align: right;
+}
+.welcomeLine span {
+  text-shadow: 1px 1px 3px darkgray;
+}
+.sectionWelcome span {
+  text-shadow: 1px 1px 3px #333;
+}
+
+.sectionWelcome {
+  position: absolute;
+  display: inline-block;
+  top: 120px;
+  right: 20px;
+  width: 100%;
+  text-align: right;
+  z-index: 2;
+}
+
+.regBtn,
+.loginBtn,
+.logoutBtn {
+  color: yellow;
+  box-shadow: 1px 1px 1px yellow;
+  text-align: center;
+  display: inline-block;
+  margin: 0 5px;
+  padding-top: 3px;
+  text-shadow: 1px 1px 2px #555;
+}
+
+.regBtn,
+.loginBtn {
+  width: 44%;
+}
+
+.loginBtn {
+  transform: translateY(-11%);
+  width: 80px;
+}
+
+.navigation__checkbox {
+  display: none;
+}
+
+.navigation__button {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 0.5rem;
+  right: 1.8rem;
+  background-color: #fff;
+  z-index: 250;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+}
+@media only screen and (max-width: 56.25em) {
+  .navigation__button {
+    top: 0.5rem;
+    right: 1.5rem;
+  }
+  .regBtn,
+  .loginBtn,
+  .logoutBtn {
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .navigation__button {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+  .welcomeLine {
+    font-size: 0.7rem;
+  }
+}
+
+.navigation__background {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 1rem;
+  right: 2.2rem;
+  background-image: radial-gradient(#00ccff, #ff6d6d);
+  z-index: 200;
+  transition: transform 1.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+@media only screen and (max-width: 56.25em) {
+  .navigation__background {
+    top: 1rem;
+    right: 1.8rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .navigation__background {
+    top: 1rem;
+    right: 1rem;
+  }
+}
+
+.navigation__nav {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 210;
+  opacity: 0;
+  width: 0;
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.navigation__list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+}
+
+/* .navigation__item {
+  margin: 1rem;
+} */
+
+.navigation__link:link,
+.navigation__link:visited {
+  display: inline-block;
+  /* font-family: "Aclonica", sans-serif; */
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 1rem 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    120deg,
+    transparent 0%,
+    transparent 50%,
+    #fff 50%
+  );
+  background-size: 250%;
+  transition: all 0.5s;
+}
+.navigation__link:link span,
+.navigation__link:visited span {
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.navigation__link:hover,
+.navigation__link:active {
+  background-position: 100%;
+  color: hotpink;
+  transform: translateX(1rem);
+}
+
+.navigation__checkbox:checked ~ .navigation__background {
+  transform: scale(80);
+}
+
+.navigation__checkbox:checked ~ .navigation__nav {
+  opacity: 1;
+  width: 100%;
+  left: 0;
+}
+
+.navigation__icon {
+  position: relative;
+  margin-top: 1.5rem;
+}
+.navigation__icon,
+.navigation__icon::before,
+.navigation__icon::after {
+  width: 1.5rem;
+  height: 2.5px;
+  background-color: #333;
+  display: inline-block;
+}
+.navigation__icon::before,
+.navigation__icon::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  transition: all 0.2s;
+}
+.navigation__icon::before {
+  top: -0.5rem;
+}
+.navigation__icon::after {
+  top: 0.5rem;
+}
+
+.navigation__button:hover .navigation__icon::before {
+  top: -0.75rem;
+}
+
+.navigation__button:hover .navigation__icon::after {
+  top: 0.75rem;
+}
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon {
+  background-color: transparent;
+}
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+  top: 0;
+  transform: rotate(-135deg);
+}
+/*-------------------- navigation end -------------------*/

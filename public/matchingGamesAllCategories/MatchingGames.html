@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Memory Game</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Aclonica|Gorditas:700|Luckiest+Guy|Nosifer&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Aclonica|Gorditas:700|Luckiest+Guy|Nosifer&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="overlayMenu">
+      <div class="overlayContent">
+        <h1>Please Choose Your Category</h1>
+        <div class="matching-game-select" id="categories-btn">
+          <button>fruits</button>
+          <button>colors</button>
+          <button>random all</button>
+        </div>
+        <!-- <h1>How Many Cards?</h1>
+        <div class="matching-game-select">
+          <button>16</button>
+          <button>24</button>
+          <button>All</button>
+        </div> -->
+        <button id="playBtn">Let's Play!</button>
+      </div>
+    </div>
+    <div id="gameContainer">
+      <div class="header">
+        <h1><span id="matching-game-category">fruits</span> matching game</h1>
+        <div class="scoreboard">
+          <div class="playerData">
+            <p class="name" id="name1">Player1</p>
+            <p class="p1pts">0</p>
+          </div>
+          <div id="turn"><i class="fas fa-arrow-alt-circle-left"></i></div>
+          <div class="playerData">
+            <p class="name" id="name2">Player2</p>
+            <p class="p2pts">0</p>
+          </div>
+          <button id="homeBtn">
+            <a href="/enjoy"><i class="fa fa-home"></i></a>
+          </button>
+        </div>
+      </div>
+
+      <div class="memory-game" id="gameBoard"></div>
+
+      <div class="winnerBackground">
+        <div class="winnerContainerBorder">
+          <div class="winnerContainer">
+            <h1 class="winner">The winner is...</h1>
+            <p id="winner">PlayerName!!</p>
+            <button id="playAgain">Play again</button>
+            <button id="mainMenu"><a href="../enjoy.html">Main Menu</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <script src="scripts.js"></script>
+    <script>
+      $(document).ready(function() {
+        // loadCards(fruits);
+        $('#playBtn').attr('disabled', true);
+      });
+    </script>
+  </body>
+</html>

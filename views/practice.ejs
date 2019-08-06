@@ -1,0 +1,38 @@
+<div class="practiceTitleBg">
+  <div class="navigation"></div>
+  <h1 class="sectionTitle">Practice</h1>
+  <div class="practiceSectionContainer">
+    <div class="sectionWelcome">
+      <span class="lead mb-3">Welcome, <%= user.name %></span>
+      <a href="/users/logout" class="btn btn-secondary logoutBtn">Logout</a>
+    </div>
+    <h2 class="subHeading-lightbk">Flashcards</h2>
+    <div class="sectionContent" id="flashcards">
+      <button>
+        <a href="flashcards/flashcards.html"
+          >Flashcards<br /><span class="extraInfo">(By categories)</span></a
+        >
+      </button>
+    </div>
+
+    <h2 class="subHeading-lightbk">Quizzes</h2>
+
+    <div class="quizSection">
+      <div class="sectionContent" id="quizzes">
+        <button>present tense</button>
+        <button>past tense</button>
+        <button>future tense</button>
+        <button>plurals</button>
+        <button>antonyms</button>
+        <button>synonyms</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/sections.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.navigation').load('nav.html');
+  });
+</script>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Memory Game</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Aclonica|Gorditas:700|Luckiest+Guy|Nosifer&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Aclonica|Gorditas:700|Luckiest+Guy|Nosifer&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--------------------------------- Overlay -------------------->
+    <div class="overlayMenu">
+      <div class="overlayContent">
+        <div id="whichCategory">
+          <h1>Please Choose Your Category</h1>
+          <div class="matching-game-select" id="categories-btn">
+            <button>fruits</button>
+            <button>colors</button>
+            <button>random all</button>
+          </div>
+        </div>
+        <div id="howManyCards">
+          <h1>How Many Cards?</h1>
+          <div class="matching-game-select" id="cards-amount">
+            <button data-num="16">16</button>
+            <button data-num="24">24</button>
+            <button data-num="32">32</button>
+            <button data-num="99">All</button>
+          </div>
+        </div>
+        <div id="howMuchTime">
+          <h1>How Much Time?</h1>
+          <div class="matching-game-select" id="time-select">
+            <button>60</button>
+            <button>90</button>
+            <button>120</button>
+          </div>
+        </div>
+        <button id="playBtn">Let's Play!</button>
+      </div>
+    </div>
+    <!------------------------------ Overlay end -------------------->
+
+    <!------------------------------ Game Display -------------------->
+    <div id="gameContainer">
+      <!------------------------------ Game header -------------------->
+      <div class="header">
+        <h1><span id="matching-game-category">fruits</span> matching game</h1>
+        <div class="scoreboard">
+          <div class="countdownTimer">
+            <p>Time: <span id="timeRemaining"></span></p>
+          </div>
+          <!-- <div id="timer">60</div> -->
+          <div id="timeBarBg">
+            <div id="timeBar"></div>
+          </div>
+
+          <div class="matchesMade">
+            <p>Matches: <span id="matches">0</span></p>
+          </div>
+        </div>
+        <button id="homeBtn">
+          <a href="/enjoy"><i class="fa fa-home"></i></a>
+        </button>
+      </div>
+      <!------------------------------ Game header end ---------------->
+
+      <!------------------------------ Game Board --------------------->
+      <div class="memory-game" id="gameBoard"></div>
+      <!------------------------------ Game Board end ----------------->
+
+      <!------------------------------ Winner ----------------->
+      <div class="winnerBackground">
+        <div class="winnerContainerBorder">
+          <div class="winnerContainer">
+            <h1 class="winner">You found <span id="winner"></span></h1>
+
+            <button id="playAgain">Play again</button>
+            <button id="mainMenu"><a href="../enjoy.html">Main Menu</a></button>
+          </div>
+        </div>
+      </div>
+      <!------------------------------ Winner end ----------------->
+    </div>
+    <!------------------------------ Game display end ----------------->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <script src="scripts.js"></script>
+    <script>
+      //call the function to create the buttons
+      createBtns();
+      $(document).ready(function() {
+        $('#playBtn, #categories-btn button, #time-select button').attr(
+          'disabled',
+          true
+        );
+        // $("#categories-btn").attr("button", "disabled", true);
+        $('#howManyCards').addClass('currentSelection');
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,634 @@
+<div class="learnTitleBg" id="learnTop">
+ <div class="navigation"></div>
+ <h1 class="sectionTitle">Learn</h1>
+ <div class="learnSectionContainer">
+  <div class="sectionWelcome">
+   <span class="lead mb-3">Welcome, <%= user.name %></span>
+   <a href="/users/logout" class="btn btn-secondary logoutBtn">Logout</a>
+  </div>
+  <h2 class="subHeading-darkbk">Vocabulary Lists</h2>
+  <div class="sectionContent" id="vocabLists">
+   <button class="listBtn" id="fruits">fruits</button>
+   <button class="listBtn" id="colors">colors</button>
+   <button class="listBtn" id="animals">animals</button>
+   <button class="listBtn" id="places">places</button>
+   <button class="listBtn" id="bodyparts">body parts</button>
+  </div>
+  <h2 class="subHeading-darkbk">Grammar Lessons</h2>
+  <div class="sectionContent" id="lessons">
+   <button>present tense</button>
+   <button>past tense</button>
+   <button>future tense</button>
+
+   <button>plurals</button>
+   <button>antonyms</button>
+   <button>synonyms</button>
+
+   <!-- <button>nouns</button>
+        <button>count nouns/non-count nouns</button>
+
+        <button>verbs</button>
+        <button>action verbs</button>
+        <button>adjectives</button>
+        <button>adverbs</button>
+
+        <button>subject/verb agreement</button>
+        <button>subject/predicate</button>
+        <button>conjuctions</button> -->
+  </div>
+ </div>
+ <div class="infoTable" id="presenttense">
+  <h1 class="banner bannerLong">The Present Tense</h1>
+  <div class="lessonInfo">
+   <span class="closeBox" onclick="document.getElementById('presenttense').style.display='none'">
+    <i class="fas fa-window-close"></i>
+   </span>
+   <p class="descPg">
+    The present tense describes events are happening now, events that
+    happen regularly, or a state that something is in. Verbs in the
+    present tense changes forms based on the subject of the sentence. The
+    general rule is if the <span class="color3">subject</span> is 'I',
+    'You', 'We', 'They', or a plural noun, then the verb is singular. If
+    the <span class="color3">subject</span> is singular, then the verb is
+    plural.
+   </p>
+
+   <div class="lessonGroup" id="presentNormal">
+    <h2>Normal Verbs</h2>
+
+    <p>
+     For normal verbs, add '<span class="color3">s</span>' for the plural
+     form of the verb.
+    </p>
+    <h4>Examples:</h4>
+    <div class="subjVerbTable">
+     <p>I <span class="color4">play</span></p>
+     <p>You <span class="color4">play</span></p>
+     <p>
+      He, She, It, John, Jenny, The dog, etc. <span class="color4">plays</span>
+     </p>
+     <p>We <span class="color4">play</span></p>
+     <p>They <span class="color4">play</span></p>
+     <p>
+      The dogs, Children, Teachers, etc. <span class="color4">play</span>
+     </p>
+    </div>
+
+   </div>
+
+   <div class="lessonGroup" id="presentAddES">
+    <h2>Verbs Ending in 'o', 'sh', 'ch', 'x', 'z', and 'ss'</h2>
+
+    <p>
+     For these verbs, add '<span class="color3">es</span>' for the plural
+     form.
+    </p>
+    <h4>Examples:</h4>
+    <div class="subjVerbTable">
+     <p>I <span class="color4">wish</span></p>
+     <p>You <span class="color4">wish</span></p>
+     <p>
+      He, She, It, John, Jenny, The dog, etc. <span class="color4">wishes</span>
+     </p>
+     <p>We <span class="color4">wish</span></p>
+     <p>They <span class="color4">wish</span></p>
+     <p>
+      The dogs, Children, Teachers, etc. <span class="color4">wish</span>
+     </p>
+    </div>
+   </div>
+
+   <div class="lessonGroup" id="presentAddIES">
+    <h2>Verbs Ending in a consonant and 'y'</h2>
+
+    <p>
+     For these verbs, remove the '<span class="color3">y</span>' and add
+     '<span class="color3">ies</span>'.
+    </p>
+    <h4>Examples:</h4>
+    <div class="subjVerbTable">
+     <p>I <span class="color4">study</span></p>
+     <p>You <span class="color4">study</span></p>
+     <p>
+      He, She, It, John, Jenny, The dog, etc. <span class="color4">studies</span>
+     </p>
+     <p>We <span class="color4">study</span></p>
+     <p>They <span class="color4">study</span></p>
+     <p>
+      The dogs, Children, Teachers, etc. <span class="color4">study</span>
+     </p>
+    </div>
+   </div>
+
+   <div class="lessonGroup" id="presentToBe">
+    <h2>To Be</h2>
+
+    <p>
+     To be has a different form, '<span class="color3">am</span>',
+     that is only used when the subject is I. The 'is' form is used with
+     singular subjects and 'are' form is used with 'You', 'We', 'They',
+     'The cats', etc.
+    </p>
+    <h4>Examples:</h4>
+    <div class="subjVerbTable">
+     <p>I <span class="color4">am</span></p>
+     <p>You <span class="color4">are</span></p>
+     <p>
+      He, She, It, John, Jenny, The dog, etc. <span class="color4">is</span>
+     </p>
+     <p>We <span class="color4">are</span></p>
+     <p>They <span class="color4">are</span></p>
+     <p>
+      The dogs, Children, Teachers, etc. <span class="color4">are</span>
+     </p>
+    </div>
+   </div>
+  </div>
+ </div>
+
+ <div class="infoTable" id="pasttense">
+  <h1 class="banner bannerLong">The Past Tense</h1>
+  <div class="lessonInfo">
+
+   <span class="closeBox" onclick="document.getElementById('pasttense').style.display='none'">
+    <i class="fas fa-window-close"></i>
+   </span>
+   <p>
+    The past tense describes events that have already finished before now.
+    To change verbs into the past tense, follow the rules depending on
+    which group the verb is in. You just have to remember which group each
+    verb is in from practice and experience.
+   </p>
+
+   <div class="lessonGroup" id="pastNormal">
+    <h2>Normal Verbs</h2>
+
+    <p>
+     To change verbs the normal group into the past tense, just add
+     '<span class="color3">ed</span>' to the end of the verb.
+    </p>
+    <h4>Examples:</h4>
+    <div id="examplesPast">
+     <p>
+      jump <i class="fas fa-long-arrow-alt-right"></i> jump<span class="color3">ed</span>
+     </p>
+     <p>
+      watch <i class="fas fa-long-arrow-alt-right"></i> watch<span class="color3">ed</span>
+     </p>
+     <p>
+      clean <i class="fas fa-long-arrow-alt-right"></i> clean<span class="color3">ed</span>
+     </p>
+     <p>
+      play <i class="fas fa-long-arrow-alt-right"></i> play<span class="color3">ed</span>
+     </p>
+     <p>
+      help <i class="fas fa-long-arrow-alt-right"></i> help<span class="color3">ed</span>
+     </p>
+    </div>
+   </div>
+
+   <div class="lessonGroup" id="pastEndingInE">
+    <h2>Verbs Ending in 'e'</h2>
+
+    <p>
+     To change verbs ending in 'e' into the past tense, just add '<span class="color3">d</span>' to the end of the verb.
+    </p>
+    <h4>Examples:</h4>
+    <div id="examplesPast">
+     <p>
+      race <i class="fas fa-long-arrow-alt-right"></i> race<span class="color3">d</span>
+     </p>
+     <p>
+      bake <i class="fas fa-long-arrow-alt-right"></i> bake<span class="color3">d</span>
+     </p>
+     <p>
+      trade <i class="fas fa-long-arrow-alt-right"></i> trade<span class="color3">d</span>
+     </p>
+     <p>
+      type <i class="fas fa-long-arrow-alt-right"></i> type<span class="color3">d</span>
+     </p>
+     <p>
+      share <i class="fas fa-long-arrow-alt-right"></i> share<span class="color3">d</span>
+     </p>
+    </div>
+   </div>
+
+   <div class="lessonGroup" id="examplesPastDouble">
+    <h2>Doubled End Consonants</h2>
+
+    <p>
+     <strong><u>Certain</u></strong> verbs that end in a
+     consonant-vowel-consonant, you should
+     <span class="color4">double</span> the final consonant and add
+     '<span class="color3">ed</span>'.
+     <span class="color4">Don't double</span> when the final
+     consonant is 'y' or 'w'. When there is more than one syllable,
+     <span class="color4">double</span> the final consonant
+     <i><u>when the final syllable is stressed</u></i>.
+    </p>
+    <h4>Examples (<span class="color4">doubled</span>):</h4>
+    <div id="examplesPast">
+     <p>
+      stop <i class="fas fa-long-arrow-alt-right"></i> sto<span class="color4">pp</span><span class="color3">ed</span>
+     </p>
+     <p>
+      plan <i class="fas fa-long-arrow-alt-right"></i> pla<span class="color4">nn</span><span class="color3">ed</span>
+     </p>
+     <p>
+      prefer <i class="fas fa-long-arrow-alt-right"></i> prefe<span class="color4">rr</span><span
+       class="color3">ed</span>
+     </p>
+     <p>
+      wrap <i class="fas fa-long-arrow-alt-right"></i> wra<span class="color4">pp</span><span class="color3">ed</span>
+     </p>
+     <p>
+      slam <i class="fas fa-long-arrow-alt-right"></i> sla<span class="color4">mm</span><span class="color3">ed</span>
+     </p>
+    </div>
+    <h4>Examples (<span class="color4">not doubled</span>):</h4>
+    <div id="examplesPast">
+     <p>
+      visit <i class="fas fa-long-arrow-alt-right"></i> visi<span class="color4">t</span><span class="color3">ed</span>
+     </p>
+     <p>
+      travel <i class="fas fa-long-arrow-alt-right"></i> trave<span class="color4">l</span><span
+       class="color3">ed</span>
+     </p>
+     <p>
+      listen <i class="fas fa-long-arrow-alt-right"></i> liste<span class="color4">n</span><span
+       class="color3">ed</span>
+     </p>
+     <p>
+      cancel <i class="fas fa-long-arrow-alt-right"></i> cance<span class="color4">l</span><span
+       class="color3">ed</span>
+     </p>
+     <p>
+      happen <i class="fas fa-long-arrow-alt-right"></i> happe<span class="color4">n</span><span
+       class="color3">ed</span>
+     </p>
+    </div>
+   </div>
+
+   <div class="lessonGroup" id="pastNormal">
+    <h2>Irregular Verbs</h2>
+
+    <p>
+     Irregular verbs don't follow any rules to change them to the past
+     tense form and should to be memorized.
+    </p>
+    <h4>Examples:</h4>
+    <div id="examplesPast">
+     <p>
+      go <i class="fas fa-long-arrow-alt-right"></i><span class="color3"> went</span>
+     </p>
+     <p>
+      do <i class="fas fa-long-arrow-alt-right"></i><span class="color3"> did</span>
+     </p>
+     <p>
+      think <i class="fas fa-long-arrow-alt-right"></i><span class="color3"> thought</span>
+     </p>
+     <p>
+      ride <i class="fas fa-long-arrow-alt-right"></i><span class="color3"> rode</span>
+     </p>
+     <p>
+      make <i class="fas fa-long-arrow-alt-right"></i><span class="color3"> made</span>
+     </p>
+    </div>
+   </div>
+  </div>
+ </div>
+
+ <div class="infoTable" id="futuretense">
+  <h1 class="banner bannerLong">The Future Tense</h1>
+  <div class="lessonInfo">
+   <span class="closeBox" onclick="document.getElementById('futuretense').style.display='none'">
+    <i class="fas fa-window-close"></i>
+   </span>
+   <p class="descPg">
+    The future tense describes events will happen later from now. The future tense is made from adding "<span
+     class="color3">will</span>" before the verb, OR adding the correct subject matching present tense form of "<span
+     class="color3">to be</span>" (EX: I am, He is, They are, etc.) with "<span class="color3">going to</span>" before
+    the verb.
+   </p>
+
+
+   <div class="lessonGroup" id="presentNormal">
+    <h4>Examples: (will)</h4>
+    <div class="subjVerbTable">
+     <li>I <span class="color4">will play</span></li>
+     <li>You <span class="color4">will play</span></li>
+     <li>
+      He, She, It, John, Jenny, The dog, etc. <span class="color4">will play</span>
+     </li>
+     <li>We <span class="color4">will play</span></li>
+     <li>They <span class="color4">will play</span></li>
+     <li>
+      The dogs, Children, Teachers, etc. <span class="color4">will play</span>
+     </li>
+     <h4>Examples: (going to)</h4>
+     <div class="subjVerbTable">
+      <li>I <span class="color4">am going to play</span></li>
+      <li>You <span class="color4">are going to play</span></li>
+      <li>
+       He, She, It, John, Jenny, The dog, etc. <span class="color4">is going to play</span>
+      </li>
+      <li>We <span class="color4">are going to play</span></li>
+      <li>They <span class="color4">are going to play</span></li>
+      <li>
+       The dogs, Children, Teachers, etc. <span class="color4">are going to play</span>
+      </li>
+     </div>
+     <!-- <table>
+              <tr><td>I</td><td>play</td><td>We</td><td>play</td></tr>
+              <tr><td>You</td><td>play</td><td>They</td><td>play</td></tr>
+              <tr><td>He<br>She<br>It<br>John<br>The cat<br>etc.</td><td>plays</td><td>Tina and Tom<br>Children<br>Teachers<br>The dogs<br>etc.</td><td>play</td></tr>
+            </table> -->
+
+    </div>
+
+   </div>
+  </div>
+ </div>
+
+ <div class="infoTable" id="antonyms">
+  <h1 class="banner">Antonyms</h1>
+  <div class="lessonInfo">
+
+   <span class="closeBox" onclick="document.getElementById('antonyms').style.display='none'">
+    <i class="fas fa-window-close"></i>
+   </span>
+   <p>Antonyms are words that have the opposite meaning of a word.</p>
+
+   <div class="lessonGroup" id="antonymExamples">
+    <h4>Examples:</h4>
+    <p>
+     <span class="color4">big </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> small</span>
+    </p>
+    <p>
+     <span class="color4">tall </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> short</span>
+    </p>
+    <p>
+     <span class="color4">light </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> heavy</span>
+    </p>
+    <p>
+     <span class="color4">fast </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> slow</span>
+    </p>
+    <p>
+     <span class="color4">strong </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> weak</span>
+    </p>
+    <p>
+     <span class="color4">expensive </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> cheap</span>
+    </p>
+    <p>
+     <span class="color4">good </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> bad</span>
+    </p>
+    <p>
+     <span class="color4">neat </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> sloppy</span>
+    </p>
+    <p>
+     <span class="color4">clean </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> dirty</span>
+    </p>
+    <p>
+     <span class="color4">hard </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> soft</span>
+    </p>
+    <p>
+     <span class="color4">high </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> low</span>
+    </p>
+   </div>
+  </div>
+ </div>
+
+ <div class="infoTable" id="synonyms">
+  <h1 class="banner">Synonyms</h1>
+  <div class="lessonInfo">
+
+   <span class="closeBox" onclick="document.getElementById('synonyms').style.display='none'">
+    <i class="fas fa-window-close"></i>
+   </span>
+   <p>
+    Synonyms are words that have the same or similar meaning of a word.
+   </p>
+
+   <div class="lessonGroup" id="synonymExamples">
+    <h4>Examples:</h4>
+    <p>
+     <span class="color4">big </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> large</span>
+    </p>
+    <p>
+     <span class="color4">tall </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> high</span>
+    </p>
+    <p>
+     <span class="color4">short </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> low</span>
+    </p>
+    <p>
+     <span class="color4">fast </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> quick</span>
+    </p>
+    <p>
+     <span class="color4">strong </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> powerful</span>
+    </p>
+    <p>
+     <span class="color4">jump </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> hop</span>
+    </p>
+    <p>
+     <span class="color4">pretty </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> beautiful </span><i
+      class="fas fa-arrows-alt-h"></i><span class="color3"> cute</span>
+    </p>
+    <p>
+     <span class="color4">messy </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> sloppy </span><i
+      class="fas fa-arrows-alt-h"></i><span class="color3"> unorganized</span>
+    </p>
+    <p>
+     <span class="color4">clean </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> neat </span><i
+      class="fas fa-arrows-alt-h"></i><span class="color3"> organized</span>
+    </p>
+   </div>
+  </div>
+ </div>
+
+ <div class="infoTable" id="plurals">
+  <h1 class="banner">Plurals</h1>
+  <div class="lessonInfo">
+   <span class="closeBox" onclick="document.getElementById('plurals').style.display='none'">
+    <i class="fas fa-window-close"></i>
+   </span>
+   <p class="descPg">
+    The plural form of a noun is used when you have two or more or none of
+    something.
+
+    Normally, you add '<span class="color3">s</span>' or
+    '<span class="color3">es</span>' to the end.
+   </p>
+
+   <div class="lessonGroup" id="pluralNormal">
+    <h2>Normal Nouns</h2>
+    <p>
+     For normal nouns, add '<span class="color3">s</span>' to get the plural form.
+    </p>
+    <h4>Examples:</h4>
+    <div id="examplesPluralNormal">
+     <p>
+      book <i class="fas fa-long-arrow-alt-right"></i> book<span class="color3">s</span>
+     </p>
+     <p>
+      name <i class="fas fa-long-arrow-alt-right"></i> name<span class="color3">s</span>
+     </p>
+     <p>
+      chair <i class="fas fa-long-arrow-alt-right"></i> chair<span class="color3">s</span>
+     </p>
+     <p>
+      toy <i class="fas fa-long-arrow-alt-right"></i> toy<span class="color3">s</span>
+     </p>
+     <p>
+      dog <i class="fas fa-long-arrow-alt-right"></i> dog<span class="color3">s</span>
+     </p>
+    </div>
+   </div>
+
+
+   <div class="lessonGroup" id="pluralAddES">
+    <h2>Nouns Ending in '<span class="color3">o</span>', '<span class="color3">sh</span>', '<span
+      class="color3">ch</span>', '<span class="color3">x</span>', '<span class="color3">z</span>', '<span
+      class="color3">s</span>', and '<span class="color3">ss</span>'</h2>
+    <p>
+     For these nouns, add '<span class="color3">es</span>' to get the plural form.
+    </p>
+    <h4>Examples:</h4>
+    <div class="examplesPluralAddES">
+     <p>
+      dish <i class="fas fa-long-arrow-alt-right"></i> dish<span class="color3">es</span>
+     </p>
+     <p>
+      witch <i class="fas fa-long-arrow-alt-right"></i> witch<span class="color3">es</span>
+     </p>
+     <p>
+      tomato <i class="fas fa-long-arrow-alt-right"></i> tomato<span class="color3">es</span>
+     </p>
+     <p>
+      box <i class="fas fa-long-arrow-alt-right"></i> box<span class="color3">es</span>
+     </p>
+     <p>
+      kiss <i class="fas fa-long-arrow-alt-right"></i> kiss<span class="color3">es</span>
+     </p>
+     <p>
+      bus <i class="fas fa-long-arrow-alt-right"></i> bus<span class="color3">es</span>
+     </p>
+    </div>
+   </div>
+
+
+   <div class="lessonGroup" id="pluralAddIES">
+    <h2>Nouns Ending in a consonant and '<span class="color3">y</span>'</h2>
+    <p>For these nouns, remove the '<span class="color3">y</span>' and add '<span class="color3">ies</span>'.</p>
+    <h4>Examples:</h4>
+    <div class="examplesPluralAddIES">
+     <p>
+      berry <i class="fas fa-long-arrow-alt-right"></i> berr<span class="color3">ies</span>
+     </p>
+     <p>
+      activity <i class="fas fa-long-arrow-alt-right"></i> activit<span class="color3">ies</span>
+     </p>
+     <p>
+      library <i class="fas fa-long-arrow-alt-right"></i> librar<span class="color3">ies</span>
+     </p>
+     <p>
+      story <i class="fas fa-long-arrow-alt-right"></i> stor<span class="color3">ies</span>
+     </p>
+     <p>
+      daisy <i class="fas fa-long-arrow-alt-right"></i> dais<span class="color3">ies</span>
+     </p>
+    </div>
+   </div>
+
+
+   <div class="lessonGroup" id="pluralAddIES">
+    <h2>Nouns Ending with '<span class="color3">f</span>' or '<span class="color3">fe</span>'</h2>
+    <p>For these nouns, remove the '<span class="color3">f</span>' or '<span class="color3">fe</span>' and add '<span
+      class="color3">ves</span>'.</p>
+    <h4>Examples:</h4>
+    <div class="examplesPluralAddIES">
+     <p>
+      wolf <i class="fas fa-long-arrow-alt-right"></i> wol<span class="color3">ves</span>
+     </p>
+     <p>
+      knife <i class="fas fa-long-arrow-alt-right"></i> kni<span class="color3">ves</span>
+     </p>
+     <p>
+      life <i class="fas fa-long-arrow-alt-right"></i> li<span class="color3">ves</span>
+     </p>
+     <p>
+      shelf <i class="fas fa-long-arrow-alt-right"></i> shel<span class="color3">ves</span>
+     </p>
+     <p>
+      theif <i class="fas fa-long-arrow-alt-right"></i> thei<span class="color3">ves</span>
+     </p>
+    </div>
+   </div>
+
+
+   <div class="lessonGroup" id="pluralIrregular">
+    <h2>Irregular Nouns</h2>
+    <p>For these nouns, there are no rules to follow and you just have to memorize how to change them to the plural
+     form.</p>
+    <h4>Examples:</h4>
+    <div class="examplesPluralIrregular">
+     <p>
+      <span class="color4">mouse </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> mice</span>
+     </p>
+     <p>
+      <span class="color4">tooth </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> teeth</span>
+     </p>
+     <p>
+      <span class="color4">man </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> men</span>
+     </p>
+     <p>
+      <span class="color4">child </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> children</span>
+     </p>
+     <p>
+      <span class="color4">person </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> people</span>
+     </p>
+     <p>
+      <span class="color4">foot </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> feet</span>
+     </p>
+     <p>
+      <span class="color4">die </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> dice</span>
+     </p>
+     <p>
+      <span class="color4">fish </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> fish</span>
+     </p>
+     <p>
+      <span class="color4">cactus </span><i class="fas fa-arrows-alt-h"></i><span class="color3"> cacti</span>
+     </p>
+    </div>
+   </div>
+
+  </div>
+ </div>
+
+
+ <div class="listContainer">
+  <!-- <div id="fruitsList">
+        <h1 class="banner">Fruits</h1>
+        <span
+          class="closeBox"
+          onclick="document.getElementById('fruitsList').style.display='none'"
+        >
+          <i class="fas fa-window-close"></i>
+        </span>
+        <div class="vocabList" id="fruitsWords">
+          <div>
+            <img class="wordImg" src="../pictures/apples.jpg" alt="apple" />
+          </div>
+          <div class="wordEng">apple</div>
+          <div class="wordKr">사과</div>
+        </div>
+      </div> -->
+ </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/sections.js"></script>
+<script>
+ getWords();
+ $(document).ready(function () {
+  createBtns();
+ });
+</script>

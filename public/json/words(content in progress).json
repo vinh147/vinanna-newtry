@@ -1,0 +1,939 @@
+{
+  "school": [
+    {
+      "picture": "classroom.jpg",
+      "enWord": "classroom",
+      "krWord": ""
+    },
+    {
+      "picture": "gym.jpg",
+      "enWord": "gym",
+      "krWord": ""
+    },
+    {
+      "picture": "hallway.jpg",
+      "enWord": "hallway",
+      "krWord": ""
+    },
+    {
+      "picture": "board.jpg",
+      "enWord": "board",
+      "krWord": ""
+    },
+    {
+      "picture": "notebook.jpg",
+      "enWord": "notebook",
+      "krWord": ""
+    },
+    {
+      "picture": "textbook.jpg",
+      "enWord": "textbook",
+      "krWord": ""
+    },
+    {
+      "picture": "school bus.jpg",
+      "enWord": "school bus",
+      "krWord": ""
+    }
+  ],
+  "transportation": [
+    {
+      "picture": "car.jpg",
+      "enWord": "car",
+      "krWord": ""
+    },
+    {
+      "picture": "bus.jpg",
+      "enWord": "bus",
+      "krWord": ""
+    },
+    {
+      "picture": "airplane.jpg",
+      "enWord": "airplane",
+      "krWord": ""
+    },
+    {
+      "picture": "subway.jpg",
+      "enWord": "subway",
+      "krWord": ""
+    },
+    {
+      "picture": "bicycle.jpg",
+      "enWord": "bicycle",
+      "krWord": ""
+    },
+    {
+      "picture": "motorcycle.jpg",
+      "enWord": "motorcycle",
+      "krWord": ""
+    },
+    {
+      "picture": "taxi.jpg",
+      "enWord": "taxi",
+      "krWord": ""
+    },
+    {
+      "picture": "on foot.jpg",
+      "enWord": "on foot",
+      "krWord": ""
+    },
+    {
+      "picture": "segway.jpg",
+      "enWord": "segway",
+      "krWord": ""
+    },
+    {
+      "picture": "boat.jpg",
+      "enWord": "boat",
+      "krWord": ""
+    },
+    {
+      "picture": "ship.jpg",
+      "enWord": "ship",
+      "krWord": ""
+    },
+    {
+      "picture": "helicopter.jpg",
+      "enWord": "helicopter",
+      "krWord": ""
+    },
+    {
+      "picture": "submarine.jpg",
+      "enWord": "submarine",
+      "krWord": ""
+    },
+    {
+      "picture": "hot air balloon.jpg",
+      "enWord": "hot air balloon",
+      "krWord": ""
+    },
+    {
+      "picture": "truck.jpg",
+      "enWord": "truck",
+      "krWord": ""
+    }
+  ],
+  "bugs": [
+    {
+      "picture": "mosquito.jpg",
+      "enWord": "mosquito",
+      "krWord": ""
+    },
+    {
+      "picture": "grasshopper.jpg",
+      "enWord": "grasshopper",
+      "krWord": ""
+    },
+    {
+      "picture": "dragonfly.jpg",
+      "enWord": "dragonfly",
+      "krWord": ""
+    },
+    {
+      "picture": "spider.jpg",
+      "enWord": "spider",
+      "krWord": ""
+    },
+    {
+      "picture": "worm.jpg",
+      "enWord": "worm",
+      "krWord": ""
+    },
+    {
+      "picture": "beetle.jpg",
+      "enWord": "beetle",
+      "krWord": ""
+    },
+    {
+      "picture": "ladybug.jpg",
+      "enWord": "ladybug",
+      "krWord": ""
+    },
+    {
+      "picture": "stag beetle.jpg",
+      "enWord": "stag beetle",
+      "krWord": ""
+    },
+    {
+      "picture": "cicada.jpg",
+      "enWord": "cicada",
+      "krWord": ""
+    },
+    {
+      "picture": "ant.jpg",
+      "enWord": "ant",
+      "krWord": ""
+    },
+    {
+      "picture": "fly.jpg",
+      "enWord": "fly",
+      "krWord": ""
+    },
+    {
+      "picture": "firefly.jpg",
+      "enWord": "firefly",
+      "krWord": ""
+    },
+    {
+      "picture": "bee.jpg",
+      "enWord": "bee",
+      "krWord": ""
+    },
+    {
+      "picture": "wasp.jpg",
+      "enWord": "wasp",
+      "krWord": ""
+    },
+    {
+      "picture": "butterfly.jpg",
+      "enWord": "butterfly",
+      "krWord": ""
+    },
+    {
+      "picture": "mantis.jpg",
+      "enWord": "mantis",
+      "krWord": ""
+    },
+    {
+      "picture": "centipede.jpg",
+      "enWord": "centipede",
+      "krWord": ""
+    }
+  ],
+  "family": [
+    {
+      "picture": "family.jpg",
+      "enWord": "family",
+      "krWord": ""
+    },
+    {
+      "picture": "mother.jpg",
+      "enWord": "mother",
+      "krWord": ""
+    },
+    {
+      "picture": "father.jpg",
+      "enWord": "father",
+      "krWord": ""
+    },
+    {
+      "picture": "brother.jpg",
+      "enWord": "brother",
+      "krWord": ""
+    },
+    {
+      "picture": "sister.jpg",
+      "enWord": "sister",
+      "krWord": ""
+    },
+    {
+      "picture": "aunt.jpg",
+      "enWord": "aunt",
+      "krWord": ""
+    },
+    {
+      "picture": "uncle.jpg",
+      "enWord": "uncle",
+      "krWord": ""
+    },
+    {
+      "picture": "cousin.jpg",
+      "enWord": "cousin",
+      "krWord": ""
+    },
+    {
+      "picture": "grandmother.jpg",
+      "enWord": "grandmother",
+      "krWord": ""
+    },
+    {
+      "picture": "grandfather.jpg",
+      "enWord": "grandfather",
+      "krWord": ""
+    },
+    {
+      "picture": "niece.jpg",
+      "enWord": "niece",
+      "krWord": ""
+    },
+    {
+      "picture": "nephew.jpg",
+      "enWord": "nephew",
+      "krWord": ""
+    },
+    {
+      "picture": "parents.jpg",
+      "enWord": "parents",
+      "krWord": ""
+    },
+    {
+      "picture": "siblings.jpg",
+      "enWord": "siblings",
+      "krWord": ""
+    }
+  ],
+  "jobs": [
+    {
+      "picture": "job.jpg",
+      "enWord": "job",
+      "krWord": ""
+    },
+    {
+      "picture": "teacher.jpg",
+      "enWord": "teacher",
+      "krWord": ""
+    },
+    {
+      "picture": "doctor.jpg",
+      "enWord": "doctor",
+      "krWord": ""
+    },
+    {
+      "picture": "scientist.jpg",
+      "enWord": "scientist",
+      "krWord": ""
+    },
+    {
+      "picture": "cook.jpg",
+      "enWord": "cook",
+      "krWord": ""
+    },
+    {
+      "picture": "nurse.jpg",
+      "enWord": "nurse",
+      "krWord": ""
+    },
+    {
+      "picture": "office worker.jpg",
+      "enWord": "office worker",
+      "krWord": ""
+    },
+    {
+      "picture": "engineer.jpg",
+      "enWord": "engineer",
+      "krWord": ""
+    },
+    {
+      "picture": "astronaut.jpg",
+      "enWord": "astronaut",
+      "krWord": ""
+    },
+    {
+      "picture": "lawyer.jpg",
+      "enWord": "lawyer",
+      "krWord": ""
+    },
+    {
+      "picture": "dentist.jpg",
+      "enWord": "dentist",
+      "krWord": ""
+    },
+    {
+      "picture": "stylist.jpg",
+      "enWord": "stylist",
+      "krWord": ""
+    },
+    {
+      "picture": "artist.jpg",
+      "enWord": "artist",
+      "krWord": ""
+    },
+    {
+      "picture": "pilot.jpg",
+      "enWord": "pilot",
+      "krWord": ""
+    },
+    {
+      "picture": "athlete.jpg",
+      "enWord": "athlete",
+      "krWord": ""
+    },
+    {
+      "picture": "baseball player.jpg",
+      "enWord": "baseball player",
+      "krWord": ""
+    },
+    {
+      "picture": "singer.jpg",
+      "enWord": "singer",
+      "krWord": ""
+    },
+    {
+      "picture": "actor.jpg",
+      "enWord": "actor",
+      "krWord": ""
+    },
+    {
+      "picture": "fashiondesigner.jpg",
+      "enWord": "fashion designer",
+      "krWord": ""
+    }
+  ],
+  "weather&seasons": [
+    {
+      "picture": "sunny.jpg",
+      "enWord": "sunny",
+      "krWord": ""
+    },
+    {
+      "picture": "cloudy.jpg",
+      "enWord": "cloudy",
+      "krWord": ""
+    },
+    {
+      "picture": "partly cloudy.jpg",
+      "enWord": "partly cloudy",
+      "krWord": ""
+    },
+    {
+      "picture": "windy.jpg",
+      "enWord": "windy",
+      "krWord": ""
+    },
+    {
+      "picture": "breezy.jpg",
+      "enWord": "breezy",
+      "krWord": ""
+    },
+    {
+      "picture": "rainy.jpg",
+      "enWord": "rainy",
+      "krWord": ""
+    },
+    {
+      "picture": "snowy.jpg",
+      "enWord": "snowy",
+      "krWord": ""
+    },
+    {
+      "picture": "stormy.jpg",
+      "enWord": "stormy",
+      "krWord": ""
+    },
+    {
+      "picture": "hot.jpg",
+      "enWord": "hot",
+      "krWord": ""
+    },
+    {
+      "picture": "cold.jpg",
+      "enWord": "cold",
+      "krWord": ""
+    },
+    {
+      "picture": "warm.jpg",
+      "enWord": "warm",
+      "krWord": ""
+    },
+    {
+      "picture": "cool.jpg",
+      "enWord": "cool",
+      "krWord": ""
+    },
+    {
+      "picture": "spring.jpg",
+      "enWord": "spring",
+      "krWord": ""
+    },
+    {
+      "picture": "summer.jpg",
+      "enWord": "summer",
+      "krWord": ""
+    },
+    {
+      "picture": "fall.jpg",
+      "enWord": "fall",
+      "krWord": ""
+    },
+    {
+      "picture": "winter.jpg",
+      "enWord": "winter",
+      "krWord": ""
+    },
+    {
+      "picture": "season.jpg",
+      "enWord": "season",
+      "krWord": ""
+    },
+    {
+      "picture": "temperature.jpg",
+      "enWord": "temperature",
+      "krWord": ""
+    },
+    {
+      "picture": "humidity.jpg",
+      "enWord": "humidity",
+      "krWord": ""
+    },
+    {
+      "picture": "lightning.jpg",
+      "enWord": "lightning",
+      "krWord": ""
+    },
+    {
+      "picture": "tornado.jpg",
+      "enWord": "tornado",
+      "krWord": ""
+    },
+    {
+      "picture": "thunder.jpg",
+      "enWord": "thunder",
+      "krWord": ""
+    },
+    {
+      "picture": "earthquake.jpg",
+      "enWord": "earthquake",
+      "krWord": ""
+    },
+    {
+      "picture": "tsunami.jpg",
+      "enWord": "tsunami",
+      "krWord": ""
+    },
+    {
+      "picture": "hurricane.jpg",
+      "enWord": "hurricane/typhoon",
+      "krWord": ""
+    },
+    {
+      "picture": "blizzard.jpg",
+      "enWord": "blizzard",
+      "krWord": ""
+    },
+    {
+      "picture": "avalanche.jpg",
+      "enWord": "avalanche",
+      "krWord": ""
+    },
+    {
+      "picture": "landslide.jpg",
+      "enWord": "landslide",
+      "krWord": ""
+    },
+    {
+      "picture": "sinkhole.jpg",
+      "enWord": "sinkhole",
+      "krWord": ""
+    },
+    {
+      "picture": "whirlpool.jpg",
+      "enWord": "whirlpool",
+      "krWord": ""
+    }
+  ],
+  "time&daysoftheweek": [
+    {
+      "picture": "time.jpg",
+      "enWord": "time",
+      "krWord": ""
+    },
+    {
+      "picture": "watch.jpg",
+      "enWord": "watch",
+      "krWord": ""
+    },
+    {
+      "picture": "clock.jpg",
+      "enWord": "clock",
+      "krWord": ""
+    },
+    {
+      "picture": "o'clock.jpg",
+      "enWord": "o'clock",
+      "krWord": ""
+    },
+    {
+      "picture": "quarter.jpg",
+      "enWord": "quarter",
+      "krWord": ""
+    },
+    {
+      "picture": "half.jpg",
+      "enWord": "half",
+      "krWord": ""
+    },
+    {
+      "picture": "second.jpg",
+      "enWord": "second",
+      "krWord": ""
+    },
+    {
+      "picture": "minute.jpg",
+      "enWord": "minute",
+      "krWord": ""
+    },
+    {
+      "picture": "hour.jpg",
+      "enWord": "hour",
+      "krWord": ""
+    },
+    {
+      "picture": "day.jpg",
+      "enWord": "day",
+      "krWord": ""
+    },
+    {
+      "picture": "week.jpg",
+      "enWord": "week",
+      "krWord": ""
+    },
+    {
+      "picture": "month.jpg",
+      "enWord": "month",
+      "krWord": ""
+    },
+    {
+      "picture": "year.jpg",
+      "enWord": "year",
+      "krWord": ""
+    },
+    {
+      "picture": "decade.jpg",
+      "enWord": "decade",
+      "krWord": ""
+    },
+    {
+      "picture": "millenium.jpg",
+      "enWord": "millenium",
+      "krWord": ""
+    },
+    {
+      "picture": "days of the week.jpg",
+      "enWord": "days of the week",
+      "krWord": ""
+    },
+    {
+      "picture": "Monday.jpg",
+      "enWord": "Monday",
+      "krWord": ""
+    },
+    {
+      "picture": "Tuesday.jpg",
+      "enWord": "Tuesday",
+      "krWord": ""
+    },
+    {
+      "picture": "Wednesday.jpg",
+      "enWord": "Wednesday",
+      "krWord": ""
+    },
+    {
+      "picture": "Thursday.jpg",
+      "enWord": "Thursday",
+      "krWord": ""
+    },
+    {
+      "picture": "Friday.jpg",
+      "enWord": "Friday",
+      "krWord": ""
+    },
+    {
+      "picture": "Saturday.jpg",
+      "enWord": "Saturday",
+      "krWord": ""
+    },
+    {
+      "picture": "Sunday.jpg",
+      "enWord": "Sunday",
+      "krWord": ""
+    },
+    {
+      "picture": "weekday.jpg",
+      "enWord": "weekday",
+      "krWord": ""
+    },
+    {
+      "picture": "weekend.jpg",
+      "enWord": "weekend",
+      "krWord": ""
+    }
+  ],
+  "months": [
+    {
+      "picture": "month.jpg",
+      "enWord": "month",
+      "krWord": ""
+    },
+    {
+      "picture": "January.jpg",
+      "enWord": "January",
+      "krWord": ""
+    },
+    {
+      "picture": "February.jpg",
+      "enWord": "February",
+      "krWord": ""
+    },
+    {
+      "picture": "March.jpg",
+      "enWord": "March",
+      "krWord": ""
+    },
+    {
+      "picture": "April.jpg",
+      "enWord": "April",
+      "krWord": ""
+    },
+    {
+      "picture": "May.jpg",
+      "enWord": "May",
+      "krWord": ""
+    },
+    {
+      "picture": "June.jpg",
+      "enWord": "June",
+      "krWord": ""
+    },
+    {
+      "picture": "July.jpg",
+      "enWord": "July",
+      "krWord": ""
+    },
+    {
+      "picture": "August.jpg",
+      "enWord": "August",
+      "krWord": ""
+    },
+    {
+      "picture": "September.jpg",
+      "enWord": "September",
+      "krWord": ""
+    },
+    {
+      "picture": "October.jpg",
+      "enWord": "October",
+      "krWord": ""
+    },
+    {
+      "picture": "November.jpg",
+      "enWord": "November",
+      "krWord": ""
+    },
+    {
+      "picture": "December.jpg",
+      "enWord": "December",
+      "krWord": ""
+    }
+  ],
+  "action verbs": [
+    {
+      "picture": "run.jpg",
+      "enWord": "run",
+      "krWord": ""
+    },
+    {
+      "picture": "jump.jpg",
+      "enWord": "jump",
+      "krWord": ""
+    },
+    {
+      "picture": "walk.jpg",
+      "enWord": "walk",
+      "krWord": ""
+    },
+    {
+      "picture": "kick.jpg",
+      "enWord": "kick",
+      "krWord": ""
+    },
+    {
+      "picture": "fly.jpg",
+      "enWord": "fly",
+      "krWord": ""
+    },
+    {
+      "picture": "swim.jpg",
+      "enWord": "swim",
+      "krWord": ""
+    },
+    {
+      "picture": "dance.jpg",
+      "enWord": "dance",
+      "krWord": ""
+    },
+    {
+      "picture": "sing.jpg",
+      "enWord": "sing",
+      "krWord": ""
+    },
+    {
+      "picture": "play.jpg",
+      "enWord": "play",
+      "krWord": ""
+    },
+    {
+      "picture": "spin.jpg",
+      "enWord": "spin",
+      "krWord": ""
+    },
+    {
+      "picture": "twist.jpg",
+      "enWord": "twist",
+      "krWord": ""
+    },
+    {
+      "picture": "sit.jpg",
+      "enWord": "sit",
+      "krWord": ""
+    },
+    {
+      "picture": "stand.jpg",
+      "enWord": "stand",
+      "krWord": ""
+    }
+  ],
+  "verbs": [
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    }
+  ],
+  "adjectives": [
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    }
+  ],
+  "adverbs": [
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    }
+  ],
+  "prepositions": [
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    }
+  ],
+  "feelings": [
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    }
+  ],
+  "numbers": [
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    }
+  ],
+  "thealphabet": [
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "presenttense": [""],
+  "pasttense": ["<div class='infoTable' id='pasttense'><h1 class='banner'>The Past Tense</h1><span class='closeBox' onclick='document.getElementById('pasttense').style.display='none''><i class='fas fa-window-close'></i></span>
+        <p>
+          The past tense describes events that have already finished before now.
+          To change verbs into the past tense, follow the rules depending on
+          which group the verb is in. You just have to remember which group each
+          verb is in from practice and experience.
+        </p>
+
+        <h2>Normal Verbs</h2>
+        <div id='pastNormal'>
+          <p>
+            To change verbs the normal group into the past tense, just add
+            '<span class='color3'>ed</span>' to the end of the verb.
+          </p>
+          <h4>Examples:</h4>
+          <div id='examplesPast'>
+            <p>
+              jump <i class='fas fa-long-arrow-alt-right'></i> jump<span
+                class='color3'
+                >ed</span
+              >
+            </p>
+            <p>
+              watch <i class='fas fa-long-arrow-alt-right'></i> watch<span
+                class='color3'
+                >ed</span
+              >
+            </p>
+            <p>
+              clean <i class='fas fa-long-arrow-alt-right'></i> clean<span
+                class='color3'
+                >ed</span
+              >
+            </p>
+            <p>
+              play <i class='fas fa-long-arrow-alt-right'></i> play<span
+                class='color3'
+                >ed</span
+              >
+            </p>
+            <p>
+              help <i class='fas fa-long-arrow-alt-right'></i> help<span
+                class='color3'
+                >ed</span
+              >
+            </p>
+          </div>
+        </div>
+
+        <h2>Verbs Ending in 'e'</h2>
+        <div id='pastEndingInE'>
+          <p>
+            To change verbs ending in 'e' into the past tense, just add '<span
+              class='color3'
+              >d</span
+            >' to the end of the verb.
+          </p>
+          <h4>Examples:</h4>
+          <div id='examplesPast'>
+            <p>
+              race <i class='fas fa-long-arrow-alt-right'></i> race<span
+                class='color3'
+                >d</span
+              >
+            </p>
+            <p>
+              bake <i class='fas fa-long-arrow-alt-right'></i> bake<span
+                class='color3'
+                >d</span
+              >
+            </p>
+            <p>
+              trade <i class='fas fa-long-arrow-alt-right'></i> trade<span
+                class='color3'
+                >d</span
+              >
+            </p>
+            <p>
+              type <i class='fas fa-long-arrow-alt-right'></i> type<span
+                class='color3'
+                >d</span
+              >
+            </p>
+            <p>
+              share <i class='fas fa-long-arrow-alt-right'></i> share<span
+                class='color3'
+                >d</span
+              >
+            </p>
+          </div>
+        </div>
+        <h2>Doubled End Consonants</h2>
+        <div id='examplesPastDouble'>
+          <p>
+            <strong><u>Certain</u></strong> verbs that end in a
+            consonant-vowel-consonant, you should
+            <span class='color4'>double</span> the final consonant and add
+            '<span class='color3'>ed</span>'
+            <br />
+            <span class='color4'>Don't double</span> when the final
+            consonant is 'y' or 'w'. When there is more than one syllable,
+            <span class='color4'>double</span> the final consonant
+            <i><u>when the final syllable is stressed</u></i
+            >.
+          </p>
+          <h4>Examples (<span class='color4'>doubled</span>):</h4>
+          <div id='examplesPast'>
+            <p>
+              stop <i class='fas fa-long-arrow-alt-right'></i> sto<span
+                class='color4'
+                >pp</span
+              ><span class='color3'>ed</span>
+            </p>
+            <p>
+              plan <i class='fas fa-long-arrow-alt-right'></i> pla<span
+                class='color4'
+                >nn</span
+              ><span class='color3'>ed</span>
+            </p>
+            <p>
+              star <i class='fas fa-long-arrow-alt-right'></i> sta<span
+                class='color4'
+                >rr</span
+              ><span class='color3'>ed</span>
+            </p>
+            <p>
+              wrap <i class='fas fa-long-arrow-alt-right'></i> wra<span
+                class='color4'
+                >pp</span
+              ><span class='color3'>ed</span>
+            </p>
+            <p>
+              slam <i class='fas fa-long-arrow-alt-right'></i> sla<span
+                class='color4'
+                >mm</span
+              ><span class='color3'>ed</span>
+            </p>
+          </div>
+          <h4>Examples (<span class='color4'>not doubled</span>):</h4>
+          <div id='examplesPast'>
+            <p>
+              visit <i class='fas fa-long-arrow-alt-right'></i> visi<span
+                class='color4'
+                >t</span
+              ><span class='color3'>ed</span>
+            </p>
+            <p>
+              travel <i class='fas fa-long-arrow-alt-right'></i> trave<span
+                class='color4'
+                >l</span
+              ><span class='color3'>ed</span>
+            </p>
+            <p>
+              listen <i class='fas fa-long-arrow-alt-right'></i> liste<span
+                class='color4'
+                >n</span
+              ><span class='color3'>ed</span>
+            </p>
+            <p>
+              cancel <i class='fas fa-long-arrow-alt-right'></i> cance<span
+                class='color4'
+                >l</span
+              ><span class='color3'>ed</span>
+            </p>
+            <p>
+              happen <i class='fas fa-long-arrow-alt-right'></i> happe<span
+                class='color4'
+                >n</span
+              ><span class='color3'>ed</span>
+            </p>
+          </div>
+        </div>
+        <h2>Irregular Verbs</h2>
+        <div id='pastNormal'>
+          <p>
+            Irregular verbs don't follow any rules to change them to the past
+            tense form and should to be memorized.
+          </p>
+          <h4>Examples:</h4>
+          <div id='examplesPast'>
+            <p>
+              go <i class='fas fa-long-arrow-alt-right'></i
+              ><span class='color3'> went</span>
+            </p>
+            <p>
+              do <i class='fas fa-long-arrow-alt-right'></i
+              ><span class='color3'> did</span>
+            </p>
+            <p>
+              think <i class='fas fa-long-arrow-alt-right'></i
+              ><span class='color3'> thought</span>
+            </p>
+            <p>
+              ride <i class='fas fa-long-arrow-alt-right'></i
+              ><span class='color3'>rode</span>
+            </p>
+            <p>
+              make <i class='fas fa-long-arrow-alt-right'></i
+              ><span class='color3'>made</span>
+            </p>
+          </div>
+        </div>
+      </div>"],
+  "plurals": [],
+  "antonyms": [],
+  "synonyms": []
+}

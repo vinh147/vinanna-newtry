@@ -1,0 +1,74 @@
+<div class="enjoyTitleBg">
+  <div class="navigation"></div>
+  <h1 class="sectionTitle">Enjoy</h1>
+  <div class="enjoySectionContainer">
+    <div class="sectionWelcome">
+      <span class="lead mb-3">Welcome, <%= user.name %></span>
+      <a href="/users/logout" class="btn btn-secondary logoutBtn">Logout</a>
+    </div>
+    <h2 class="subHeading-lightbk">Matching Games</h2>
+    <div class="sectionContent">
+      <button>
+        <a href="matchingGamesAllCategories/MatchingGames.html"
+          >By Categories<br /><span class="extraInfo"
+            >(2-player Versus)</span
+          ></a
+        >
+      </button>
+      <button>
+        <a href="matchingGamesAllCategories (for mobile)/MatchingGames.html"
+          >By Categories<br /><span class="extraInfo"
+            >(2-player Versus)<br />(mobile compatible)</span
+          ></a
+        >
+      </button>
+      <button>
+        <a href="matchingGamesAllCategories (speedmatching)/MatchingGames.html"
+          >By Categories<br /><span class="extraInfo"
+            >(1-player speed matching)<br />(mobile compatible)</span
+          ></a
+        >
+      </button>
+      <button>
+        <a href="matchingGames/fruitsMatchingGame.html">fruits</a>
+      </button>
+      <button>
+        <a href="matchingAlpha/index.html"
+          >Alphabet<br /><span class="extraInfo">(by Alex Khouri)</span></a
+        >
+      </button>
+      <button>
+        <a href="HalloweenGame/index.html"
+          >Halloween<br /><span class="extraInfo"
+            >(By WebDevMadeSimple)</span
+          ></a
+        >
+      </button>
+      <button>
+        <a href="memory-game-master/video-11/index.html"
+          >codingLogos<br /><span class="extraInfo">(By freecodecamp)</span></a
+        >
+      </button>
+      <!-- <button>colors</button>
+        <button>animals</button>
+        <button>places</button>
+        <button>body parts</button> -->
+    </div>
+    <h2 class="subHeading-lightbk">Speed Quizzes</h2>
+    <div class="sectionContent" id="quizzes">
+      <button>present tense</button>
+      <button>past tense</button>
+      <button>future tense</button>
+      <button>plurals</button>
+      <button>antonyms</button>
+      <button>synonyms</button>
+    </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/sections.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.navigation').load('nav.html');
+  });
+</script>

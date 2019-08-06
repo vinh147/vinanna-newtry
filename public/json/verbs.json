@@ -1,0 +1,205 @@
+{
+  "action verbs": [
+    {
+      "picture": "run.jpg",
+      "enWord": "run",
+      "krWord": "",
+      "past": "irregular"
+    },
+    {
+      "picture": "jump.jpg",
+      "enWord": "jump",
+      "krWord": "",
+      "past": "normal"
+    },
+    {
+      "picture": "walk.jpg",
+      "enWord": "walk",
+      "krWord": "",
+      "past": "normal"
+    },
+    {
+      "picture": "do.jpg",
+      "enWord": "do",
+      "krWord": "",
+      "past": "irregular"
+    },
+    {
+      "picture": "kick.jpg",
+      "enWord": "kick",
+      "krWord": "",
+      "past": "normal"
+    },
+    {
+      "picture": "fly.jpg",
+      "enWord": "fly",
+      "krWord": "",
+      "past": "irregular"
+    },
+    {
+      "picture": "swim.jpg",
+      "enWord": "swim",
+      "krWord": "",
+      "past": "irregular"
+    },
+    {
+      "picture": "dance.jpg",
+      "enWord": "dance",
+      "krWord": "",
+      "past": "end-in-e"
+    },
+    {
+      "picture": "sing.jpg",
+      "enWord": "sing",
+      "krWord": "",
+      "past": "irregular"
+    },
+    {
+      "picture": "play.jpg",
+      "enWord": "play",
+      "krWord": "",
+      "past": "normal"
+    },
+    {
+      "picture": "spin.jpg",
+      "enWord": "spin",
+      "krWord": "",
+      "past": "irregular"
+    },
+    {
+      "picture": "twist.jpg",
+      "enWord": "twist",
+      "krWord": "",
+      "past": "normal"
+    },
+    {
+      "picture": "sit.jpg",
+      "enWord": "sit",
+      "krWord": "",
+      "past": "irregular"
+    },
+    {
+      "picture": "stand.jpg",
+      "enWord": "stand",
+      "krWord": "",
+      "past": "irregular"
+    }
+  ],
+  "stative verbs": [
+    {
+      "picture": "like.jpg",
+      "enWord": "like",
+      "krWord": ""
+    },
+    {
+      "picture": "have.jpg",
+      "enWord": "have",
+      "krWord": ""
+    },
+    {
+      "picture": "be.jpg",
+      "enWord": "be",
+      "krWord": ""
+    },
+    {
+      "picture": "know.jpg",
+      "enWord": "know",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    },
+    {
+      "picture": ".jpg",
+      "enWord": "",
+      "krWord": ""
+    }
+  ]
+}

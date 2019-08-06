@@ -1,0 +1,1274 @@
+{
+  "fruits": [
+    {
+      "picture": "fruits.jpg",
+      "enWord": "fruits",
+      "krWord": "과일"
+    },
+    {
+      "picture": "apples.jpg",
+      "enWord": "apple",
+      "krWord": "사과"
+    },
+    {
+      "picture": "bananas.jpg",
+      "enWord": "banana",
+      "krWord": "바나나"
+    },
+    {
+      "picture": "strawberries.jpg",
+      "enWord": "strawberry",
+      "krWord": "딸기"
+    },
+    {
+      "picture": "watermelon.jpg",
+      "enWord": "watermelon",
+      "krWord": "수박"
+    },
+    {
+      "picture": "peaches.jpg",
+      "enWord": "peach",
+      "krWord": "복숭아"
+    },
+    {
+      "picture": "avocado.jpg",
+      "enWord": "avocado",
+      "krWord": "아보카도"
+    },
+    {
+      "picture": "pears.jpg",
+      "enWord": "pear",
+      "krWord": "배"
+    },
+    {
+      "picture": "plum.jpg",
+      "enWord": "plum",
+      "krWord": "자두"
+    },
+    {
+      "picture": "pineapple.jpg",
+      "enWord": "pineapple",
+      "krWord": "파인애플"
+    },
+    {
+      "picture": "grapefruit.jpg",
+      "enWord": "grapefruit",
+      "krWord": "자몽"
+    },
+    {
+      "picture": "cherries.jpg",
+      "enWord": "cherry",
+      "krWord": "채리"
+    },
+    {
+      "picture": "grapes.jpg",
+      "enWord": "grapes",
+      "krWord": "포도"
+    },
+    {
+      "picture": "lemon.jpg",
+      "enWord": "lemon",
+      "krWord": "래몬"
+    },
+    {
+      "picture": "mango.jpg",
+      "enWord": "mango",
+      "krWord": "망고"
+    },
+    {
+      "picture": "coconut.jpg",
+      "enWord": "coconut",
+      "krWord": "코코넛"
+    },
+    {
+      "picture": "blueberries.jpg",
+      "enWord": "blueberry",
+      "krWord": "블루베리"
+    },
+    {
+      "picture": "raspberries.jpg",
+      "enWord": "raspberry",
+      "krWord": "산딸기"
+    },
+    {
+      "picture": "blackberries.jpg",
+      "enWord": "blackberry",
+      "krWord": "블랙베리"
+    },
+    {
+      "picture": "kiwi.jpg",
+      "enWord": "kiwi",
+      "krWord": "키위"
+    },
+    {
+      "picture": "persimmon.jpg",
+      "enWord": "persimmon",
+      "krWord": "감"
+    }
+  ],
+  "colors": [
+    {
+      "picture": "blue.jpg",
+      "enWord": "blue",
+      "krWord": "파란색"
+    },
+    {
+      "picture": "red.jpg",
+      "enWord": "red",
+      "krWord": "빨간색"
+    },
+    {
+      "picture": "yellow.jpg",
+      "enWord": "yellow",
+      "krWord": "노란색"
+    },
+    {
+      "picture": "green.jpg",
+      "enWord": "green",
+      "krWord": "초록색"
+    },
+    {
+      "picture": "pink.jpg",
+      "enWord": "pink",
+      "krWord": "분홍색"
+    },
+    {
+      "picture": "purple.jpg",
+      "enWord": "purple",
+      "krWord": "보라색"
+    },
+    {
+      "picture": "brown.jpg",
+      "enWord": "brown",
+      "krWord": "갈색"
+    },
+    {
+      "picture": "black.jpg",
+      "enWord": "black",
+      "krWord": "검정색"
+    },
+    {
+      "picture": "white.jpg",
+      "enWord": "white",
+      "krWord": "하얀색"
+    },
+    {
+      "picture": "gray.jpg",
+      "enWord": "gray",
+      "krWord": "왜색"
+    },
+    {
+      "picture": "silver.jpg",
+      "enWord": "silver",
+      "krWord": "은색"
+    },
+    {
+      "picture": "gold.jpg",
+      "enWord": "gold",
+      "krWord": "금색"
+    },
+    {
+      "picture": "navyblue.jpg",
+      "enWord": "navy blue",
+      "krWord": "남색"
+    },
+    {
+      "picture": "lightblue.jpg",
+      "enWord": "light blue",
+      "krWord": "하늘색"
+    }
+  ],
+  "animals": [
+    {
+      "picture": "dog.jpg",
+      "enWord": "dog",
+      "krWord": "개"
+    },
+    {
+      "picture": "cat.jpg",
+      "enWord": "cat",
+      "krWord": "고양이"
+    },
+    {
+      "picture": "bird.jpg",
+      "enWord": "bird",
+      "krWord": "새"
+    },
+    {
+      "picture": "horse.jpg",
+      "enWord": "horse",
+      "krWord": "말"
+    },
+    {
+      "picture": "bear.jpg",
+      "enWord": "bear",
+      "krWord": "곰"
+    },
+    {
+      "picture": "pig.jpg",
+      "enWord": "pig",
+      "krWord": "돼지"
+    },
+    {
+      "picture": "mouse.jpg",
+      "enWord": "mouse",
+      "krWord": "쥐"
+    },
+    {
+      "picture": "lion.jpg",
+      "enWord": "lion",
+      "krWord": "사자"
+    },
+    {
+      "picture": "tiger.jpg",
+      "enWord": "tiger",
+      "krWord": "호랑이"
+    },
+    {
+      "picture": "sheep.jpg",
+      "enWord": "sheep",
+      "krWord": "양"
+    },
+    {
+      "picture": "squirrel.jpg",
+      "enWord": "squirrel",
+      "krWord": "다란쥐"
+    },
+    {
+      "picture": "fish.jpg",
+      "enWord": "fish",
+      "krWord": "물고기"
+    },
+    {
+      "picture": "monkey.jpg",
+      "enWord": "monkey",
+      "krWord": "원숭이"
+    },
+    {
+      "picture": "sloth.jpg",
+      "enWord": "sloth",
+      "krWord": "나태"
+    },
+    {
+      "picture": "giraffe.jpg",
+      "enWord": "giraffe",
+      "krWord": "기린"
+    },
+    {
+      "picture": "elephant.jpg",
+      "enWord": "elephant",
+      "krWord": "코끼리"
+    },
+    {
+      "picture": "rabbit.jpg",
+      "enWord": "rabbit",
+      "krWord": "토끼"
+    },
+    {
+      "picture": "camel.jpg",
+      "enWord": "camel",
+      "krWord": "낙타"
+    },
+    {
+      "picture": "deer.jpg",
+      "enWord": "deer",
+      "krWord": "사슴"
+    },
+    {
+      "picture": "wolf.jpg",
+      "enWord": "wolf",
+      "krWord": "늑대"
+    },
+    {
+      "picture": "frog.jpg",
+      "enWord": "frog",
+      "krWord": "개구리"
+    },
+    {
+      "picture": "duck.jpg",
+      "enWord": "duck",
+      "krWord": "오리"
+    }
+  ],
+  "places": [
+    {
+      "picture": "school.jpg",
+      "enWord": "school",
+      "krWord": "학교"
+    },
+    {
+      "picture": "playground.jpg",
+      "enWord": "playground",
+      "krWord": "운동장"
+    },
+    {
+      "picture": "park.jpg",
+      "enWord": "park",
+      "krWord": "공원"
+    },
+    {
+      "picture": "busstop.jpg",
+      "enWord": "bus stop",
+      "krWord": "버스정류소"
+    },
+    {
+      "picture": "hospital.jpg",
+      "enWord": "hospital",
+      "krWord": "병원"
+    },
+    {
+      "picture": "pharmacy.jpg",
+      "enWord": "pharmacy",
+      "krWord": "약국"
+    },
+    {
+      "picture": "postoffice.jpg",
+      "enWord": "post office",
+      "krWord": "우체국"
+    },
+    {
+      "picture": "policestation.jpg",
+      "enWord": "police station",
+      "krWord": "경찰서"
+    },
+    {
+      "picture": "firestation.jpg",
+      "enWord": "firestation",
+      "krWord": "소방서"
+    },
+    {
+      "picture": "court.jpg",
+      "enWord": "court",
+      "krWord": "법원"
+    },
+    {
+      "picture": "church.jpg",
+      "enWord": "church",
+      "krWord": "교회"
+    },
+    {
+      "picture": "museum.jpg",
+      "enWord": "museum",
+      "krWord": "박물관"
+    },
+    {
+      "picture": "port.jpg",
+      "enWord": "port",
+      "krWord": "항구"
+    },
+    {
+      "picture": "restaurant.jpg",
+      "enWord": "restaurant",
+      "krWord": "식당"
+    },
+    {
+      "picture": "bank.jpg",
+      "enWord": "bank",
+      "krWord": "은행"
+    },
+    {
+      "picture": "gasstation.jpg",
+      "enWord": "gas station",
+      "krWord": "주유소"
+    },
+    {
+      "picture": "airport.jpg",
+      "enWord": "airport",
+      "krWord": "공항"
+    },
+    {
+      "picture": "station.jpg",
+      "enWord": "subway station",
+      "krWord": "지하철역"
+    },
+    {
+      "picture": "beautysalon.jpg",
+      "enWord": "beauty salon",
+      "krWord": "미장원"
+    },
+    {
+      "picture": "barbershop.jpg",
+      "enWord": "barbershop",
+      "krWord": "이발소"
+    },
+    {
+      "picture": "laundromat.jpg",
+      "enWord": "laundromat",
+      "krWord": "세탁소"
+    },
+    {
+      "picture": "library.jpg",
+      "enWord": "library",
+      "krWord": "도서관"
+    },
+    {
+      "picture": "flowershop.jpg",
+      "enWord": "flower shop",
+      "krWord": "꽃 가게"
+    },
+    {
+      "picture": "departmentstore.jpg",
+      "enWord": "department store",
+      "krWord": "백화점"
+    },
+    {
+      "picture": "bakery.jpg",
+      "enWord": "bakery",
+      "krWord": "제과점"
+    },
+    {
+      "picture": "conveniencestore.jpg",
+      "enWord": "convenience store",
+      "krWord": "편의점"
+    },
+    {
+      "picture": "stationerystore.jpg",
+      "enWord": "stationery store",
+      "krWord": "문구점"
+    },
+    {
+      "picture": "bookstore.jpg",
+      "enWord": "bookstore",
+      "krWord": "서점"
+    },
+    {
+      "picture": "home.jpg",
+      "enWord": "home",
+      "krWord": "집"
+    },
+    {
+      "picture": "zoo.jpg",
+      "enWord": "zoo",
+      "krWord": "동물원"
+    },
+    {
+      "picture": "amusementpark.jpg",
+      "enWord": "amusement park",
+      "krWord": "놀이 공원"
+    },
+    {
+      "picture": "waterpark.jpg",
+      "enWord": "waterpark",
+      "krWord": "워터 파크"
+    },
+    {
+      "picture": "movietheater.jpg",
+      "enWord": "movie theater",
+      "krWord": "극장"
+    },
+    {
+      "picture": "aquarium.jpg",
+      "enWord": "aquarium",
+      "krWord": "아쿠아리움"
+    },
+    {
+      "picture": "casino.jpg",
+      "enWord": "casino",
+      "krWord": "카지노"
+    },
+    {
+      "picture": "arcade.jpg",
+      "enWord": "arcade",
+      "krWord": "아케이드"
+    },
+    {
+      "picture": "bowlingalley.jpg",
+      "enWord": "bowling alley",
+      "krWord": "볼링장"
+    },
+    {
+      "picture": "palace.jpg",
+      "enWord": "palace",
+      "krWord": "궁"
+    },
+    {
+      "picture": "farm.jpg",
+      "enWord": "farm",
+      "krWord": "농장"
+    }
+  ],
+  "natural places": [
+    {
+      "picture": "beach.jpg",
+      "enWord": "beach",
+      "krWord": "해수욕장"
+    },
+    {
+      "picture": "field.jpg",
+      "enWord": "field",
+      "krWord": "들"
+    },
+    {
+      "picture": "forest.jpg",
+      "enWord": "forest",
+      "krWord": "숲"
+    },
+    {
+      "picture": "desert.jpg",
+      "enWord": "desert",
+      "krWord": "사막"
+    },
+    {
+      "picture": "mountain.jpg",
+      "enWord": "mountain",
+      "krWord": "산"
+    },
+    {
+      "picture": "valley.jpg",
+      "enWord": "valley",
+      "krWord": "골짜기"
+    },
+    {
+      "picture": "sea.jpg",
+      "enWord": "sea",
+      "krWord": "바다"
+    },
+    {
+      "picture": "lake.jpg",
+      "enWord": "lake",
+      "krWord": "호수"
+    },
+    {
+      "picture": "river.jpg",
+      "enWord": "river",
+      "krWord": "강"
+    },
+    {
+      "picture": "sky.jpg",
+      "enWord": "sky",
+      "krWord": "하늘"
+    },
+    {
+      "picture": "outerspace.jpg",
+      "enWord": "outer space",
+      "krWord": "대기권 밖"
+    },
+    {
+      "picture": "island.jpg",
+      "enWord": "island",
+      "krWord": "섬"
+    },
+    {
+      "picture": "waterfall.jpg",
+      "enWord": "waterfall",
+      "krWord": "폭포"
+    },
+    {
+      "picture": "cave.jpg",
+      "enWord": "cave",
+      "krWord": "동굴"
+    }
+  ],
+  "body parts": [
+    {
+      "picture": "arm.jpg",
+      "enWord": "arm",
+      "krWord": "팔"
+    },
+    {
+      "picture": "leg.jpg",
+      "enWord": "leg",
+      "krWord": "다리"
+    },
+    {
+      "picture": "shoulders.jpg",
+      "enWord": "shoulder",
+      "krWord": "어깨"
+    },
+    {
+      "picture": "head.jpg",
+      "enWord": "head",
+      "krWord": "머리"
+    },
+    {
+      "picture": "neck.jpg",
+      "enWord": "neck",
+      "krWord": "목"
+    },
+    {
+      "picture": "hand.jpg",
+      "enWord": "hand",
+      "krWord": "손"
+    },
+    {
+      "picture": "foot.jpg",
+      "enWord": "foot",
+      "krWord": "발"
+    },
+    {
+      "picture": "elbow.jpg",
+      "enWord": "elbow",
+      "krWord": "팔꿈치"
+    },
+    {
+      "picture": "knee.jpg",
+      "enWord": "knee",
+      "krWord": "무릎"
+    },
+    {
+      "picture": "stomach.jpg",
+      "enWord": "stomach",
+      "krWord": "배"
+    },
+    {
+      "picture": "fingers.jpg",
+      "enWord": "fingers",
+      "krWord": "손가락"
+    },
+    {
+      "picture": "toes.jpg",
+      "enWord": "toes",
+      "krWord": "은색"
+    },
+    {
+      "picture": "ankle.jpg",
+      "enWord": "ankle",
+      "krWord": "발목"
+    },
+    {
+      "picture": "wrist.jpg",
+      "enWord": "wrist",
+      "krWord": "손목"
+    },
+    {
+      "picture": "back.jpg",
+      "enWord": "back",
+      "krWord": "등"
+    },
+    {
+      "picture": "ear.jpg",
+      "enWord": "ear",
+      "krWord": "귀"
+    },
+    {
+      "picture": "eye.jpg",
+      "enWord": "eye",
+      "krWord": "눈"
+    },
+    {
+      "picture": "nose.jpg",
+      "enWord": "nose",
+      "krWord": "코"
+    },
+    {
+      "picture": "mouth.jpg",
+      "enWord": "mouth",
+      "krWord": "입"
+    },
+    {
+      "picture": "lips.jpg",
+      "enWord": "lips",
+      "krWord": "입술"
+    },
+    {
+      "picture": "cheek.jpg",
+      "enWord": "cheek",
+      "krWord": "볼"
+    },
+    {
+      "picture": "chin.jpg",
+      "enWord": "chin",
+      "krWord": "턱"
+    },
+    {
+      "picture": "tongue.jpg",
+      "enWord": "tongue",
+      "krWord": "코"
+    },
+    {
+      "picture": "face.jpg",
+      "enWord": "face",
+      "krWord": "얼굴"
+    },
+    {
+      "picture": "hair.jpg",
+      "enWord": "hair",
+      "krWord": "머리카락"
+    },
+    {
+      "picture": "tooth.jpg",
+      "enWord": "tooth",
+      "krWord": "이"
+    },
+    {
+      "picture": "buttocks.jpg",
+      "enWord": "buttocks",
+      "krWord": "엉덩이"
+    },
+    {
+      "picture": "hips.jpg",
+      "enWord": "hips",
+      "krWord": "골반"
+    },
+    {
+      "picture": "waist.jpg",
+      "enWord": "waist",
+      "krWord": "허리"
+    },
+    {
+      "picture": "bellybutton.jpg",
+      "enWord": "belly button",
+      "krWord": "배꼽"
+    }
+  ],
+  "vegetables": [
+    {
+      "picture": "vegetables.jpg",
+      "enWord": "vegetables",
+      "krWord": "야채"
+    },
+    {
+      "picture": "pumpkin.jpg",
+      "enWord": "pumpkin",
+      "krWord": "호박"
+    },
+    {
+      "picture": "onion.jpg",
+      "enWord": "onion",
+      "krWord": "양파"
+    },
+    {
+      "picture": "carrot.jpg",
+      "enWord": "carrot",
+      "krWord": "당근"
+    },
+    {
+      "picture": "broccoli.jpg",
+      "enWord": "broccoli",
+      "krWord": "브로콜리"
+    },
+    {
+      "picture": "spinach.jpg",
+      "enWord": "spinach",
+      "krWord": "금치"
+    },
+    {
+      "picture": "kale.jpg",
+      "enWord": "kale",
+      "krWord": "캐일"
+    },
+    {
+      "picture": "sweetpotato.jpg",
+      "enWord": "sweet potato",
+      "krWord": "고구마"
+    },
+    {
+      "picture": "potato.jpg",
+      "enWord": "potato",
+      "krWord": "감자"
+    },
+    {
+      "picture": "tomato.jpg",
+      "enWord": "tomato",
+      "krWord": "토마토"
+    },
+    {
+      "picture": "lettuce.jpg",
+      "enWord": "lettuce",
+      "krWord": "양상추"
+    },
+    {
+      "picture": "cabbage.jpg",
+      "enWord": "cabbage",
+      "krWord": "양배추"
+    },
+    {
+      "picture": "asparagus.jpg",
+      "enWord": "asparagus",
+      "krWord": "아스파라거스"
+    },
+    {
+      "picture": "celery.jpg",
+      "enWord": "celery",
+      "krWord": "셀러리"
+    },
+    {
+      "picture": "garlic.jpg",
+      "enWord": "garlic",
+      "krWord": "마늘"
+    },
+    {
+      "picture": "ginger.jpg",
+      "enWord": "ginger",
+      "krWord": "생강"
+    },
+    {
+      "picture": "ginseng.jpg",
+      "enWord": "ginseng",
+      "krWord": "인삼"
+    },
+    {
+      "picture": "buttonmushrooms.jpg",
+      "enWord": "button mushrooms",
+      "krWord": "버튼 버섯"
+    },
+    {
+      "picture": "shitakemushrooms.jpg",
+      "enWord": "shitake mushrooms",
+      "krWord": "표고 버섯"
+    },
+    {
+      "picture": "bellpeppers.jpg",
+      "enWord": "bell pepper",
+      "krWord": "피망"
+    },
+    {
+      "picture": "cucumber.jpg",
+      "enWord": "cucumber",
+      "krWord": "오이"
+    },
+    {
+      "picture": "sprouts.jpg",
+      "enWord": "sprouts",
+      "krWord": "콩나물"
+    },
+    {
+      "picture": "greenonions.jpg",
+      "enWord": "green onions",
+      "krWord": "파"
+    },
+    {
+      "picture": "bokchoi.jpg",
+      "enWord": "bok choi",
+      "krWord": "최"
+    },
+    {
+      "picture": "beets.jpg",
+      "enWord": "beets",
+      "krWord": "사탕무"
+    },
+    {
+      "picture": "radish.jpg",
+      "enWord": "radish",
+      "krWord": "무"
+    },
+    {
+      "picture": "cauliflower.jpg",
+      "enWord": "cauliflower",
+      "krWord": "꽃양배추"
+    },
+    {
+      "picture": "eggplant.jpg",
+      "enWord": "eggplant",
+      "krWord": "가지"
+    },
+    {
+      "picture": "corn.jpg",
+      "enWord": "corn",
+      "krWord": "옥수수"
+    }
+  ],
+  "food": [
+    {
+      "picture": "pizza.jpg",
+      "enWord": "pizza",
+      "krWord": "피자"
+    },
+    {
+      "picture": "friedchicken.jpg",
+      "enWord": "fried chicken",
+      "krWord": "후라이드 치킨"
+    },
+    {
+      "picture": "curryandrice.jpg",
+      "enWord": "curry and rice",
+      "krWord": "카레라이스"
+    },
+    {
+      "picture": "spaghetti.jpg",
+      "enWord": "spaghetti",
+      "krWord": "스파게티"
+    },
+    {
+      "picture": "omelette.jpg",
+      "enWord": "omelette",
+      "krWord": "오믈렛"
+    },
+    {
+      "picture": "sandwich.jpg",
+      "enWord": "sandwich",
+      "krWord": "샌드위치"
+    },
+    {
+      "picture": "steak.jpg",
+      "enWord": "steak",
+      "krWord": "스테이크"
+    },
+    {
+      "picture": "bread.jpg",
+      "enWord": "bread",
+      "krWord": "빵"
+    },
+    {
+      "picture": "soup.jpg",
+      "enWord": "soup",
+      "krWord": "국"
+    },
+    {
+      "picture": "salad.jpg",
+      "enWord": "salad",
+      "krWord": "샐러드"
+    },
+    {
+      "picture": "frenchfries.jpg",
+      "enWord": "french fries",
+      "krWord": "감자 튀김"
+    },
+    {
+      "picture": "sushi.jpg",
+      "enWord": "sushi",
+      "krWord": "스시"
+    },
+    {
+      "picture": "icecream.jpg",
+      "enWord": "ice cream",
+      "krWord": "아이스크림"
+    },
+    {
+      "picture": "cake.jpg",
+      "enWord": "cake",
+      "krWord": "케이크"
+    },
+    {
+      "picture": "noodles.jpg",
+      "enWord": "noodles",
+      "krWord": "국수"
+    },
+    {
+      "picture": "dumplings.jpg",
+      "enWord": "dumplings",
+      "krWord": "만두"
+    },
+    {
+      "picture": "burrito.jpg",
+      "enWord": "burrito",
+      "krWord": "부리토"
+    },
+    {
+      "picture": "taco.jpg",
+      "enWord": "taco",
+      "krWord": "타코"
+    }
+  ],
+  "clothes": [
+    {
+      "picture": "clothes.jpg",
+      "enWord": "clothes",
+      "krWord": "옷"
+    },
+    {
+      "picture": "pants.jpg",
+      "enWord": "pants",
+      "krWord": "바지"
+    },
+    {
+      "picture": "jeans.jpg",
+      "enWord": "jeans",
+      "krWord": "청바지"
+    },
+    {
+      "picture": "shirt.jpg",
+      "enWord": "shirt",
+      "krWord": "셔츠"
+    },
+    {
+      "picture": "jacket.jpg",
+      "enWord": "jacket",
+      "krWord": "재킷"
+    },
+    {
+      "picture": "t-shirt.jpg",
+      "enWord": "t-shirt",
+      "krWord": "티셔츠"
+    },
+    {
+      "picture": "shorts.jpg",
+      "enWord": "shorts",
+      "krWord": "반바지"
+    },
+    {
+      "picture": "skirt.jpg",
+      "enWord": "skirt",
+      "krWord": "치마"
+    },
+    {
+      "picture": "dress.jpg",
+      "enWord": "dress",
+      "krWord": "원피스"
+    },
+    {
+      "picture": "dressshirt.jpg",
+      "enWord": "dress shirt",
+      "krWord": "드레스 셔츠"
+    },
+    {
+      "picture": "tie.jpg",
+      "enWord": "tie",
+      "krWord": "넥타이"
+    },
+    {
+      "picture": "socks.jpg",
+      "enWord": "socks",
+      "krWord": "양말"
+    },
+    {
+      "picture": "shoes.jpg",
+      "enWord": "shoes",
+      "krWord": "신발"
+    },
+    {
+      "picture": "belt.jpg",
+      "enWord": "belt",
+      "krWord": "벨트"
+    },
+    {
+      "picture": "sneakers.jpg",
+      "enWord": "sneakers",
+      "krWord": "운동화"
+    },
+    {
+      "picture": "glasses.jpg",
+      "enWord": "glasses",
+      "krWord": "안경"
+    },
+    {
+      "picture": "sunglasses.jpg",
+      "enWord": "glasses",
+      "krWord": "색안경"
+    },
+    {
+      "picture": "hanbok.jpg",
+      "enWord": "Hanbok, Korean Traditional Clothing",
+      "krWord": "한복"
+    },
+    {
+      "picture": "suit.jpg",
+      "enWord": "suit",
+      "krWord": "양복"
+    },
+    {
+      "picture": "dressshoes.jpg",
+      "enWord": "dress shoes",
+      "krWord": "구두"
+    },
+    {
+      "picture": "coat.jpg",
+      "enWord": "coat",
+      "krWord": "코트"
+    },
+    {
+      "picture": "necklace.jpg",
+      "enWord": "necklace",
+      "krWord": "목걸리"
+    },
+    {
+      "picture": "earrings.jpg",
+      "enWord": "earrings",
+      "krWord": "귀걸이"
+    },
+    {
+      "picture": "ring.jpg",
+      "enWord": "ring",
+      "krWord": "반지"
+    },
+    {
+      "picture": "bracelet.jpg",
+      "enWord": "bracelet",
+      "krWord": "손목반지"
+    },
+    {
+      "picture": "pajamas.jpg",
+      "enWord": "pajamas",
+      "krWord": "파자마"
+    },
+    {
+      "picture": "underwear.jpg",
+      "enWord": "underwear",
+      "krWord": "팬티"
+    },
+    {
+      "picture": "gloves.jpg",
+      "enWord": "gloves",
+      "krWord": "장갑"
+    },
+    {
+      "picture": "hat.jpg",
+      "enWord": "hat",
+      "krWord": "모자"
+    }
+  ],
+  "home": [
+    {
+      "picture": "bedroom.jpg",
+      "enWord": "bedroom",
+      "krWord": "침실"
+    },
+    {
+      "picture": "kitchen.jpg",
+      "enWord": "kitchen",
+      "krWord": "주방"
+    },
+    {
+      "picture": "livingroom.jpg",
+      "enWord": "living room",
+      "krWord": "거실"
+    },
+    {
+      "picture": "diningroom.jpg",
+      "enWord": "dining room",
+      "krWord": "식당"
+    },
+    {
+      "picture": "bathroom.jpg",
+      "enWord": "bathroom",
+      "krWord": "욕실"
+    },
+    {
+      "picture": "garage.jpg",
+      "enWord": "garage",
+      "krWord": "차고"
+    },
+    {
+      "picture": "frontyard.jpg",
+      "enWord": "front yard",
+      "krWord": "마당"
+    },
+    {
+      "picture": "backyard.jpg",
+      "enWord": "backyard",
+      "krWord": "뒤뜰"
+    },
+    {
+      "picture": "porch.jpg",
+      "enWord": "porch",
+      "krWord": "현관"
+    },
+    {
+      "picture": "balcony.jpg",
+      "enWord": "balcony",
+      "krWord": "발코니"
+    },
+    {
+      "picture": "closet.jpg",
+      "enWord": "closet",
+      "krWord": "다락"
+    },
+    {
+      "picture": "laundryroom.jpg",
+      "enWord": "laundry room",
+      "krWord": "세탁실"
+    },
+    {
+      "picture": "attic.jpg",
+      "enWord": "attic",
+      "krWord": "애틱"
+    }
+  ],
+  "countries": [
+    {
+      "picture": "countries.jpg",
+      "enWord": "countries",
+      "krWord": "나라"
+    },
+    {
+      "picture": "usa.jpg",
+      "enWord": "The United States",
+      "krWord": "미국"
+    },
+    {
+      "picture": "uk.jpg",
+      "enWord": "The United Kingdom",
+      "krWord": "영국"
+    },
+    {
+      "picture": "southkorea.jpg",
+      "enWord": "South Korea",
+      "krWord": "대한민국"
+    },
+    {
+      "picture": "china.jpg",
+      "enWord": "China",
+      "krWord": "중국"
+    },
+    {
+      "picture": "japan.jpg",
+      "enWord": "Japan",
+      "krWord": "일본"
+    },
+    {
+      "picture": "india.jpg",
+      "enWord": "India",
+      "krWord": "인도"
+    },
+    {
+      "picture": "austrailia.jpg",
+      "enWord": "Austrailia",
+      "krWord": "호주"
+    },
+    {
+      "picture": "canada.jpg",
+      "enWord": "Canada",
+      "krWord": "캐나다"
+    },
+    {
+      "picture": "brazil.jpg",
+      "enWord": "Brazil",
+      "krWord": "브라질"
+    },
+    {
+      "picture": "russia.jpg",
+      "enWord": "Russia",
+      "krWord": "러시아"
+    },
+    {
+      "picture": "france.jpg",
+      "enWord": "France",
+      "krWord": "프랑스"
+    },
+    {
+      "picture": "germany.jpg",
+      "enWord": "Germany",
+      "krWord": "독일"
+    },
+    {
+      "picture": "spain.jpg",
+      "enWord": "Spain",
+      "krWord": "스페인"
+    },
+    {
+      "picture": "italy.jpg",
+      "enWord": "Italy",
+      "krWord": "이탈리아"
+    },
+    {
+      "picture": "newzealand.jpg",
+      "enWord": "New Zealand",
+      "krWord": "뉴질랜드"
+    },
+    {
+      "picture": "mexico.jpg",
+      "enWord": "Mexico",
+      "krWord": "멕시코"
+    },
+    {
+      "picture": "egypt.jpg",
+      "enWord": "Egypt",
+      "krWord": "이집트"
+    },
+    {
+      "picture": "greatbritain.jpg",
+      "enWord": "Great Britain",
+      "krWord": "영국"
+    },
+    {
+      "picture": "greece.jpg",
+      "enWord": "Greece",
+      "krWord": "그리스"
+    },
+    {
+      "picture": "southafrica.jpg",
+      "enWord": "South Africa",
+      "krWord": "남아프리카 공화국"
+    }
+  ]
+}
